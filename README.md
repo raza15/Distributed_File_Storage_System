@@ -4,7 +4,7 @@ Run the Project by going into Client directory and typing:
 ```
 $ rails server
 ```
-And then go to http://localhost:3000!
+And then go to http://localhost:3000.
 
 To run the server on a particular computer:
 ```
