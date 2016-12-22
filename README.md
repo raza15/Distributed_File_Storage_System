@@ -1,4 +1,4 @@
-# "Distributed Cloud Storage" AND "Document Classifier" AND "Social Network Manager"
+# "Distributed File Storage System" AND "Document Classifier" AND "Social Network Manager"
 
 Run the Project by going into project directory:
 
