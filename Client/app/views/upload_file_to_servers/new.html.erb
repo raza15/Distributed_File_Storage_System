@@ -1,0 +1,25 @@
+<h1>New Upload File To Server</h1>
+
+<% if !@resume.errors.empty? %>
+   <div class = "alert alert-error">
+      
+      <ul>
+         <% @resume.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+         <% end %>
+      </ul>
+      
+   </div>
+<% end %>
+
+<div class = "well">
+   <%= form_for @resume, html: { multipart: true } do |f| %>
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+      <%= f.label :filename %>
+      <%= f.file_field :filename %>
+      <%= f.submit "Save", class: "btn btn-primary" %>
+   <% end %>
+</div>
+
+<%= link_to 'Back', upload_file_to_servers_path %>

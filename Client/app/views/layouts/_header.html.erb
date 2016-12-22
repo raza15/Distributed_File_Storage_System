@@ -1,0 +1,29 @@
+
+<%if (current_user==nil) %>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "client app", '#', id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   '#' %></li>
+        <li><%= link_to "Help",   '#' %></li>
+        <li><%= link_to "Sign up", '/signup' %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<%else%>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to User.find(current_user.id).email, user_path(User.find(current_user.id)), id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Location",   location_page_user_path(User.find(current_user.id)) %></li>
+        <li><%= link_to "Home",   user_path(User.find(current_user.id)) %></li>
+        <li><%= link_to "Edit",   edit_user_path(User.find(current_user.id)) %></li>
+        <li><%= link_to "Log out", logout_path, method: "delete" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<%end%>

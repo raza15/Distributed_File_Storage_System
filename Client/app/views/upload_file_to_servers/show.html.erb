@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @upload_file_to_server.email %>
+</p>
+
+<p>
+  <strong>Filename:</strong>
+  <%= @upload_file_to_server.filename %>
+</p>
+
+<%= link_to 'Edit', edit_upload_file_to_server_path(@upload_file_to_server) %> |
+<%= link_to 'Back', upload_file_to_servers_path %>

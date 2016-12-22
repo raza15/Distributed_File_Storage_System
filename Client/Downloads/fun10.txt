@@ -1,0 +1,2393 @@
+﻿ Subject: Cyberpoet's Guide to Virtual Culture - 3.14.94 - p1/5
+
+____________________._____________________________________________________
+_._______________________________________________________________________.
+_...______________________________________________________________________
+_________________...____.. _____ . _______....________.....  . ..  ____.__
+
+     ////////////////////////////////////////////////////////////////////
+    //                                                                  |
+   //                          \\      //       ///////                 |
+  //                            \\    //       //                       |
+ //                              \\  //       //                        |
+///////////// yberpoet's Guide to \\//irtual ///////ulture              |
+                                                                        |
+A multipart guide to the electronic frontier.                    039414 o
+
+-=- 01.Introduction
+------------------------------------------------------
+
+Beyond the hype, behind the glamour, underneath the sea of buzzwords,
+icons and flames a new subculture is spreading in this petri dish known as
+the Internet. Here science and art - media and mind - combine in a cyborg
+frenzy to create this replicant cousin to cyberpunk and hacking. It is a
+subculture with no name, few labels, but thousands of common attractors,
+which link together before our eyes like digital DNA to create, in the 
+helix of the autologue, a new frontier for participants in these wide 
+virtual spaces to explore.
+
+Any document that attempts to cover an emerging culture is doomed to be
+incomplete. Even more so if the culture has no overt identity (at least
+none outside virtual space). But the other side of that coin presents us
+with the oportunity to document the ebb and flow, the moments of growth
+and defeat, the development of this young culture.
+
+Although young, there is rich history and varied philosophies for this
+group to draw on. From cyberpunk, the quest for access to information and
+a vision of the future (the cyber) has been exorcised from the
+distopic and 'punk'ish views of the monster the media has made of
+cyberpunk. From the Hacker ethic, we get the rally cry that "infomation
+wants to be free." From the workings of the Internet, we see the desire
+for universal access and the pursuit of Jeffersonian Democracy (kapor)
+that is manifested itself partially through the anarchy inherent in the
+system and partially through the efforts of many net.users.
+
+This document, although significantly different, attempts to pick up where
+the FutureCulture FAQ (by andy hawks) left off. It should act as a
+starting point for those new to the net, as one avenue to reach a level
+of net.literacy, and as a handy reference point for those already
+comfortable in this pocket of the net.
+
+It is a road map to the interesting viewpoints, hot dog stands, museums, 
+flora and fauna that dots this constantly changing landscape of virtual
+space. Explore these sites. Dig in the cyborganic gardens. Report back 
+your findings, so that others may follow. And they will.
+
+                     -oO   -=<>=-   Oo-
+
+[Cyberpoet]   Cyber-, having to do with information flow, human and
+computer use/combinations, computer mediated communication. -Poet, one who
+makes art with words, an artist, a renaissance trait. A cyberpoet is one
+who strives to be artful in their use of virtual space. Someone who makes
+frequent trips to the edge of technology/culture/society and then reports
+back to anyone who will listen. The avant-guard of virtual culture.
+Someone who, like a renaissance man, has their eye on the future and their
+nose in its knowledge, technologies and politics.
+
+                     -oO   -=<>=-   Oo-
+
+-=- 01.2.Contents       |
+-------------------------
+
+Part I
+
+-=- 01.Introduction
+        o preface
+        o contents -=>what you are reading<=-
+        o copyright notices & stuph
+        o Lexicon of Virtual Culture
+             o The dictionary
+
+Part II
+
+-=- 02.Cultural Signposts
+        o Libraries - cyber-repositories of data
+        o Museums, galleries, ezines & stuph
+        o Organizations - EFF, FAF, CPSR, etc.
+        o Gov't - USA and otherwise
+
+Part III
+
+-=- 03.Virtual Hangouts
+        o Elists & newsgroups
+        o Cafes - virtual pubs and coffeehouses
+        o Parks & rec - public spaces and interesting faces
+
+Part IIII
+
+-=- 04.Resources & References
+        o Online how-to's
+        o Similiar lists
+        o Assorted online resources
+        o Access points
+
+Part V
+
+-=- 05.Offline Interests
+        o Magazines
+        o Bibliography
+
+XxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXXxX
+x                                                                      x
+X                    ***and our newest feature***                      X
+x                      KIBBLE: The CGVC Journal                        x
+X                                                                      X
+x           C     O     N     T     E     N    T     S      !          x       
+X                                                                      X
+x 1- Editorial             o      Welcome to Kibble the zine           x
+X 2- Guest FAQ             o      Clipper News & action.               X
+x 3- Ongoing projects      o      Interpedia - Internet Encyclopedia   x 
+X 4- Upcoming conferences  o      DEFCON ][ - July 22, 23, 24 - 1994   X
+x 5- Letters to the editor o                                           x
+X 6- Editorial Policy      o                                           X
+x                                                                      x
+XxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXxXXxX
+
+
+-=- 01.4.Stuph         |
+------------------------
+
+oooooooooooooooooooooooooooooooooooooooooooooooooooooo
+o  Legalese, copyright notice, some parting          o
+o  words.                                            o
+oooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+The contents contained herein are not to be construed as legal advice, nor
+is the author/publisher responsible for any damage that might result from
+the use of any information or software gathered from using this document.
+The author/publisher will make every effort to see that the information is
+up to date, but cannot warranty that it is.
+
+This document, it's format, theme and articles are copyright 1993,1994
+John Frost [frost@netcom.com], except where the copyright is retained by
+the original author. The rights to distribute and reproduce this document
+are granted in accord with the Agitprop guidelines founded by Bruce
+Sterling. A copy of those guidelines may be found via ftp at ftp.eff.org
+ftp/pub/Publications/Bruce_Sterling/README or at EFF's gopher site. Other
+uses and non-electronic reproduction of this document must first be
+cleared, in writing, with John Frost. Under no circumstance may
+money/script/funds be charged for access to this document, beyond the
+money charged for general access to the system it is found on. The guide
+may not be distributed on any disk/tape/device with a capacity of more
+then 80 megs. 
+
+To add information to, or suggest changes in, this document please email
+frost@netcom.com with the word CYBERPOET in the subject.
+
+As far as I know this list is archived at mindvox &
+
+ftp//ftp.eff.org//pub/net_info/cyberpoet.gvc
+ftp//etext.archive.umich.edu//pub/Zines/Cyberpoet
+ftp//vela.oakland.edu//pub/tribe/publications
+USENET//alt.cyberspace, alt.cyberpunk, alt.virtual.culture
+
+
+Please inform me of any other archival so that I may make mention of 
+it here. I hear that somebody is marking up an HTML verson too.
+
+     ==========
+  ==-------=======
+ ==---------=======
+==-----------=======      The Lexicon of Virtual Culture
+===---------========
+====-------=========        Virtual Culture -- >>From A to Z
+ ==================
+  ================
+  ================
+     ==========
+
+-=- 01.Lexicon of Virtual Culture
+------------------------------------------------------
+-=- 01.3.The dictionary   |
+---------------------------
+
+Virtual Culture -- >>From A to Z
+
+ADSL (Asynchronous Digital Subscriber Loop) - The transmission method
+likely to be used to send movies, tv shows and sports - at the viewers
+request - over existing telephone lines right to your television. Look for
+this to be available and affordable in the next two years. This is the
+main contender to ISDN, the winner will provide the link between 50
+channels and 500 channels, 50,000 channels or (hopefully) more.
+
+Agrippa: A Book of the Dead - A collaboration between author William
+Gibson, publisher Kevin Begos Jr., and artist Dennis Ashbaugh. This
+art-work contains engravings by Ashbaugh which appear or disappear in
+light and an on-disk semi-autobiographical poem by William Gibson  which
+is unreadable after having been read once.  Agrippa is notable because in
+many respects it blurs the lines concerning what art is, and adds fuel to
+the fire on issues of property rights and intellectual property.  A
+highlight of 1992 was the release of Gibson's poem on to the net.
+
+Artificial Life - man-made systems that exhibit characteristics associated
+with the concept of "life".
+
+Artificial Reality - similar to virtual reality, but more interactive,
+with the participant being part of, not just experiencing, the artificial
+environment.
+
+Barlow, John Perry - A drummer for the Grateful Dead and co-founder of the
+EFF. Now a net.denizen who speaks often on virtual culture and cyberspace
+sociology and technology.
+
+BBSes - electronic Bulletin Board Systems.  Begun in the late 70's, a form
+of virtual community existing in cyberspace where participants (usually
+using aliases) may send and receive public and private messages to each
+other on any topic imaginable, transfer software (copyrighted and/or
+public domain), play on-line games, etc.  There is the "over-ground" BBS
+world where aliases are less common and illegal activities are avoided in
+discussion, and the computer underground where illegal activities and
+discussions are very common, members use aliases, and illegal information
+and/or software is exchanged.
+
+Boxing - A variety of electronic devices used to aid in phreaking. The
+original was the blue box, used from the mid 60's to the mid 80's, which
+allowed long distance phone calls to be made for free. A variety of other
+similar instruments accomplishing different tasks have been developed,
+some purely comical, some quite practical.
+
+Chaos - Chaos is a state that garners a lot of respect in cyberculture, to
+the point of being a techno-pagan religion. Many people are self-described
+Chaoticians.
+
+Chaos Theory - A field of science revolving around simplistic equations
+involving a large number of variables. Gave rise to fractals, a form of
+cyberdelic art. For further info on the subject, James Gleick's "Chaos:
+Making a New Science" is suggested.
+
+C0dez Doodz - Essentially a phreaker's version of pirates. People who seek
+out telco codes to be used to gain long distance (ld) telephone calls
+without paying for them. Scourge of the computer underground.
+
+Communitek - an informational technology that provides the potential for a
+community to develop in cyberspace. For example, within the net, IRC and
+elists are two communiteks.
+
+Computer Underground - "A group organized in secrecy, hidden behind
+aliases, to promote the free exchange of information regarding anything
+and everything including, but not limited to: computers, telephones,
+radios, chemicals, and ideas." (Thanx to The Butler for this definition)
+The mainstay of communication for the computer underground is cyberspace,
+more specifically BBSes. The computer underground is composed of hackers,
+phreakers, pirates, anarchists, and other cyberpunks.
+
+Cyber- - A prefix taken from cybernetics generally used in popular culture
+to mean anything that is technologically oriented.
+
+Cyberculture - Often used in the media to denote aspects of "life as a
+cyberpunk." Yet if we are to follow strict meaning, cyberculture is more
+accurately defined as an information-based culture.
+
+Cyberdeck - Term originated by William Gibson to refer to a computer used
+by deck cowboys that can connect to the matrix.
+
+Cyberdelic - "Cyber-art".  Examples include fractals, computer-generated
+pictures and/or music, virtual worlds, etc. (sidebar - fractal pict)
+
+Cybernetics - The study of communication systems in living organisms and
+machines, the mathematical analysis of the flow of information.
+
+Cyberpunk - Begun as a literary movement in the 80's, an off-shoot of
+normal science fiction. Unique in that it generally occurs in the present
+or not so distant future, the characters are often considered "punks"
+(social deviants) and technology, (the cyber aspect), is prominent.
+"Neuromancer" by William Gibson, published in 1984, is considered by most
+to be the "bible" of cyberpunk.  Another prominent author is Bruce
+Sterling, editor of another worthy cyberpunk collection, "Mirrorshades".
+Other examples of cyberpunk include Max Headroom (TV show) and BladeRunner
+(movie). Cyberpunk is special in that it has evolved from a purely
+literary movement to a realistic subculture. Many "techno-punks" (i.e.,
+hackers) are considered cyberpunks. Other contributing factors to the
+cyberpunk subculture include:  virtual reality, hallucinogenic and
+nootropic drugs, and industrial and punk music. For an in-depth, detailed
+look at cyberpunk fiction and cyberpunk culture, "Storming the Reality
+Studio," ed. by Larry McCaffery is suggested.
+
+Cyberspace - "The electronic frontier." A completely virtual environment:
+the sum of all BBSes, computer networks, and other virtual communities.
+Unique in that it is constantly being changed, exists only virtually, can
+be practically infinite in "size", communication occurs instantaneously
+world-wide - physical location is completely irrelevant most of the time.
+Some include video and telephone transmissions as part of cyberspace.
+
+Cypherpunks - net.folks who have evolved from hacking to encryption and
+concern with creating multiple anonymous identities.
+
+Deck Cowboys - Futuristic, some say fantasy, version of a computer hacker
+or a modern-day cyberpunk.
+
+Electronic Frontier Foundation - (EFF). Organization founded by Mitch
+Kapor (of Lotus fame) and John Perry Barlow (writer and Grateful Dead
+songwriter) to establish laws for cyberspace and apply the constitution to
+virtual communities. The EFF has recently morphed into a strong lobbying
+force in Washington D.C..
+
+Elist (email-lists) - An electronic discussion group that anyone with an
+email address can subscribe to. Email addresses for the elist members are
+stored on a single computer. When you send email to that machine, it will
+automatically bounce your letter to every other subscriber. Thousands of
+these elists, covering almost every topic, exist on the Internet for your
+reading pleasure and more are materializing weekly.
+
+Ezine - An net version of the small press magazine (known as a zine)
+culture. Usually ezines exist only on the net, but more and more
+paper-zines are distributing an electronic version as well. (sidebar, some
+zines to watch for)
+
+F2F - face to face meeting (also FTF)
+
+Flame - Disagreement (hell, full fledged war sometimes) occurring in
+cyberspace. Common on Usenet.
+
+Fleshmeet - a F2F meeting. Often a party of some sort where people who
+have met previously on the net get together.
+
+Fractals - Images created using chaos theory. A mish-mash of colors
+presented in a pattern that repeats itself many times over.  A popular
+type of fractal image is one created using the "Mandlebrot set".  Fractals
+are considered cyberdelic art.
+
+Gibson, William - Considered by most to be the "father" of cyberpunk,
+along with Bruce Sterling. His works include the infamous "Neuromancer",
+"Count Zero", "Mona Lisa Overdrive" (these 3 works are known as the sprawl
+series), "The Difference Engine" with which he was co-author with Bruce
+Sterling, and "Burning Chrome" a collection of short stories.  A recent
+work of his is a poem in "Agrippa: A Book of the Dead".  Gibson says he
+will no longer be writing the "classic"  cyberpunk novels he is famous
+for.  His latest work is entitled "Virtual Light" is futuristic fiction
+was released in August.
+
+Global Village - Famous term coined by Marshall McLuhan, exemplified by
+the net.
+
+Gopher - A menu driven service useful for grep'ing info off the net. You
+forgot your friend's email address, look here. Need to read the latest
+issue of "Voices from the net" (An electronic text based zine or ezine),
+look here. Searching for a file to read or software to download, use
+Gopher. Over 1200 individual gopher sites exist and the number is growing
+weekly.
+
+Grep - search, or scan.
+
+Grok - Word with roots in Shamanism that is akin to gnow. and implies a
+thorough and complete holistic understanding. Popularized in Robert A.
+Heinlein's _Stranger in a Strange Land_.
+
+Hacker - 60's (1st) generation (orig. MIT):  one who tinkers with
+software, electronics, computer hardware, etc.  80's (2nd) WarGames
+generation:  one who enters computer systems without permission with
+either malicious or non-malicious intent, to gain, alter, or destroy
+information (labeled as crackers by the 60's generation).  90's (3rd)
+generation:  often called cyberpunks, mostly non-malicious crackers
+interested in information for the sake of information, and not hacking for
+the sake of the hack - sometimes calling themselves "information
+liberators", they have re-adopted more of the original hacker ethic of the
+60's that mainly states "all information should be free", "access to
+computers should be unlimited and total" and "promote decentralization".
+This new, 3rd generation is commonly associated with the computer
+underground, despite its mostly non-malicious intent.
+
+Identity Hacking - The use of pseudo-anonymity or false accounts to
+put ones self off as another person on the Internet. Not nice.
+
+Infonomics - The idea of an economy based on information, which obviously
+holds many different properties from our current state of the world.
+
+Internet - A large and very popular world-wide computer network begun by
+the Department of Defense in the 60's that connects educational
+institutions, corporations, organizations, and military and government
+installations around the globe. Some organizations exist that offer
+Internet access to the general public for an hourly,monthly or yearly fee.
+Suggested are places like the WELL, MindVox, Nyx (which is free of cost),
+Netcom, etc.  Many Internet users partake in reading and contributing to
+Usenet, playing MUDs, FTPing text files and programs free of charge at the
+various FTP sites, and 'telnet'ing to other Internet sites. Because of its
+accessibility at a relatively low cost, size (the largest computer network
+in the world), connectivity, and infinite amounts of information, many
+network users prefer the Internet to such services as CompuServe (often
+called Compu$erve on the Internet) or Prodigy (which is more restricting
+in its content). The Internet has something to offer for everyone. There
+are many helpful books published about how to use the Internet, some are
+available right on-line.  Once you gain access to the Internet, it is
+suggested that you read the 'news.announce.newusers' and
+'news.newusers.questions' and 'news.answers' newsgroups on Usenet.
+
+IRC - Internet Relay Chat. Realtime communication forums between Internet
+users all over the world.
+
+ISDN - Integrated Services Digital Network.  A communitek hopefully coming
+soon to a house near you, basically it will greatly expand the potential
+for information coming into your house, such as having 700 cable TV
+channels, interactive realtime video-phones, and far off in the future
+possible even realtime networked interactive 3d virtual reality.
+
+Kapor, Mitch - One of EFF's founders (along with John Perry Barlow). He
+started the Lotus software company and built it into one of the top 5
+software companies in the world, then left to start the EFF. In addition
+to working at the top of EFF ladder, he frequently writes stories for
+magazines and newspapers, interviews on the TV and is often called to
+testify before congressional hearings.
+
+Knowbot - provides a uniform user interface to heterogeneous remote
+information services. A predecesor to the Intelligent Agent.
+
+Legion of Doom - (LoD). A legendary group of hackers from the computer
+underground. When they disbanded, some members went on to form a computer
+security firm (ComSec), Loyd Blankenship wrote GURPS Cyberpunk for Steve
+Jackson Games and some ended up in jail from Operation Sundevil.
+
+Matrix - Term coined by William Gibson that refers to the consensual
+hallucination of cyberspace.
+
+Meme - An "agent of communicative resonance," or more simply, "an
+information virus."  Memetics is the study and theories behind the root
+structures of information itself.
+
+MindVox - A virtual community in cyberspace, also a BBS connected to the
+Internet.  A nexus of the computer underground and cyberpunk and virtual
+reality began by Phantom Access Technologies, former members of the Legion
+of Doom. See also the WELL.
+
+Mirrorshades - A very important collection of cyberpunk fiction by various
+authors, most of whom are labeled as the mirrorshades group. This book is
+edited by Bruce Sterling and should be available in most bookstores.
+
+Mirrorshades Group - Original collection of cyberpunk authors which
+includes William Gibson, Bruce Sterling, Tom Maddox, Lewis Shiner, John
+Shirley, SF Eye magazine editor Steve Brown, Rudy Rucker, Pat Cadigan, and
+others.
+
+Mondo 2000 - Very popular cyberpunk and new edge magazine. Recently
+challenged by a new magazine, WIRED.
+
+MUD - Multi-User Domain, Multi-User Dungeon, or Multi-User Dimension. MUDs
+are multi-user role-playing-games of sorts that exist on the Internet for
+entertainment purposes. MUDs are essentially text-based virtual worlds
+which players (participants) may explore, change, or add on to. In most
+cases, the MUD is actually a "game" with scores, player attributes,
+levels, etc., but some MUDs are with more social goals in mind. MUDs tend
+to be based around different science fiction genres such as fantasy,
+space, or even cyberpunk.
+More recently MUDs have         SIDEBAR - MU*'s have a somewhat unfortunate
+developed new uses. Research,   SIDEBAR - of being addicting. I attribute
+conferencing, and more          SIDEBAR - this to the strong feeling of
+academic MUDs are popping       SIDEBAR - community one gets from mudding.
+up like wildflowers these       SIDEBAR - Students have been known to drop
+days and indicate a possible    SIDEBAR - out of school just to MUD. Others
+trend in the Internet, that     SIDEBAR - have fallen in love over a mu*
+being integration of services.  SIDEBAR - only to later realize the other
+                                SIDEBAR - player doesn't feel the same.
+Nanotechnology - the science    SIDEBAR - I recommend going cold turkey as
+of "micro-machines". Small      SIDEBAR - the only solution to the MUDding
+gears or other machines seen    SIDEBAR - addiction. =)
+only by a microscope, that
+can be used in areas such as medicine and health, art, and other
+technologies.
+
+Net - A computer network. Often used to mean the Internet when referred to
+as "the net".
+
+Netrip - Many similarities exist in some people's minds between
+psychedelic drugs and the net, and a netrip is the state of literally
+getting "high" off the net, accompanied by distortions in space and time,
+a gnowledge of the net itself, an intense desire to communicate your
+subconscious to the rest of the net, etc.
+
+New Edge - Fringe culture and fringe science, mostly techno-oriented, and
+very popular in Southern California. Mondo 2000 is a magazine devoted to
+the new edge.
+
+Nexus - The dictionary defines a "nexus" as a "a connection, tie, or link
+between individuals of a group, members of a series, etc." When applied to
+virtual cultures and the networked humans which comprise them, a NEXUS is
+basically a domicile/workspace/cultural-center formed in real-life by
+people who have met and established relationships over the Net.  They
+purchase and secure group Internet access, and thus control their own
+node, living in close proximity, since creativity blossoms in people when
+surrounded with creativity; since similar approaches to work and life can
+re-inforce each other.  We have seen this happen on the Net; the NEXUS
+community intends to manifest it in reality, to integrate it into our
+lifestyle.
+
+Nootropics - A new science revolving around drugs used to increase
+intelligence, aid in memory, enhance brain activity, etc. Touted as a fad
+by some, others claim that use of nootropics actually work.  See also
+SmartDrinks.
+
+Operation Sundevil - Secret Service operation begun in 1990 intended to
+destroy the computer underground by confiscating BBSes and detaining
+hackers.
+
+Paste Bomb - Sometimes a litteral core dump. Via the Mac's Cut and Paste
+capability, take random bits of data from one's hard drive and paste it
+into an online conversation, email, mud, whatever.  Eris Lives. Sci-fi
+author Bruce Sterling is a notorious paste bomber. Get in the habit
+
+Phrack - An important magazine existing only in cyberspace, of interest to
+the computer underground. It's founder, Craig Neidorf, now works for the
+Electronic Frontier Foundation.
+
+Phreaker - Hacking the phone system. Usually meaning to get phone calls
+for free, whether by boxing or calling card fraud. Individual phreakers
+are called phreaks.
+
+Pirate - One who copies software illegally. Commonly associated with the
+computer underground.  Although commonplace, pirates are looked down upon
+as with codez d00dz . (sidebar SPA and the big corporation pirates)
+
+Post-industrial - The state of the world, including megacorp zaibatsus, an
+evolving infonomics, etc.
+
+Post-modern - Literary, artistic, cultural, and philosophical movement
+revolving around the post-industrial world in which we live, and the
+unique aspects of the trends of modern society.
+
+Raves - A 'dying' subculture revolving around all-night dance parties.
+Typically, the parties are generally illegal and thus a complex process is
+involved to find out where they are located. Rave music is generally
+techno or house , the parties usually include 1 or more DJs. Also present
+in many cases are "chill out rooms" which feature more ambient music.
+Lasers, blaring music, cyberdelic images, SmartDrinks and drugs most often
+MDMA {X, XTC, Ecstasy, E}, LSD {acid}, ketamine, or nootropics) are all
+general contributors to the rave experience.  Raves are usually held in
+warehouses, and last until the next morning. Another large part of rave
+culture is the flyers - used to find out where your next  party will be.
+Raves are meant to be very happy events, everyone ideally should be open
+and free, laying aggressions and inhibitions aside for the night. Some
+have likened the rave experience to "a weekly roving techno-woodstock for
+the 90's."  Rave fashion includes over-sized baggy t-shirts and pants,
+hooded sweat-shirts, ski caps, and usually bright colors, as well as
+accessories such as whistles, Cat In The Hat hats, "doctor" masks,
+VapoRub, etc. Many factors have led to an often heard questions these
+days, "where have all the ravers gone?" (one answer is... they've gone Retro)
+
+RTFM - Read The Fucking Manual. An abbreviation used when clueless 
+questions are asked about subjects that are answered in the manual or FAQ.
+
+Shaman - An overused word that in ancient and modern cultures implies one
+who is a wise medicine man or healer, with a keen understanding of the
+ways of things. Used increasingly in modern culture, especially in
+conjunction with techno-paganism.
+
+Slipstream - Term used to denote cyberpunk fiction, particularly pre-1984
+fictional works that have been influential to the mirrorshades group or
+that closely resemble cyberpunk, but are sometimes outside of the sf
+genre. An example would be William S. Burroughs.
+
+SmartDrugs - nootropics.
+
+SmartDrinks - Similar to SmartDrugs, or nootropics, the intent of  these
+substances, loaded with vitamins, minerals, amino acids, and other healthy
+substances, is to aid in brain functioning. Smart Drinks are most often
+consumed at raves, thus, the purpose of some smart drinks is to "energize"
+the drinker, not to make them smarter.
+
+Sprawl - Word used by William Gibson to mean large mega-cities, and places
+where different cities collide. Southern California and New York City
+might be early examples of the sprawl. This word is used often in modern
+times as "urban sprawl".
+
+Steve Jackson Games - RPG manufacturers that have played a key role in the
+evolution of cyberpunk and the computer underground. Operators of the
+Illuminati BBS and makers of GURPS Cyberpunk, an RPG guide written by Loyd
+Blankenship, a member of the Legion of Doom.
+
+Sterling, Bruce - considered by most to be the "co-founder" of cyberpunk
+along with William Gibson. He is the editor of "Mirrorshades: A cyberpunk
+anthology," which is considered the quintessential collection of cyberpunk
+works by the mirrorshades group. Some of his other works include "Islands
+in the Net", "Schismatrix", "Involution Ocean", "The Artificial Kid", "The
+Difference Engine" which he co-authored with Gibson and "The Hacker
+Crackdown" a non-fiction account of the computer underground and Operation
+Sundevil, including the Electronic Frontier Foundation, Phrack, the Legion
+of Doom, Steve Jackson Games, etc. Sterling has also been a vocal member
+of the net. Keep your eyes open, you never know where he will surface next.
+
+Social Engineering - Technique by which hackers or crackers acquire
+information, such as names and passwords.  Essentially a modern-day con,
+often conducted via phone conversations, such as portraying oneself as a
+telco employee.
+
+TBT - Talking by Typing.
+
+Techno- - prefix similar to cyber-, referring to anything which has its
+roots in current or futuristic technology.
+
+Techno - type of music made almost entirely with the help of computers,
+revolving around a fast-paced drum beat (as high as 160 BPM), sampling,
+and synthesizers.
+
+Technoculture - The idea of a culture with a strong foundation rooted  in
+technology. Often used loosely in association with cyberculture and new edge.
+
+Techno-paganism - Literally the worshipping of technology. Many people
+*believe* that, for example, the net has some magic or is a sentient
+entity in itself, or that technology can be an agent of evolution.
+(sidebar Aleph spew)
+
+Teledildonics - Virtual sex in a virtual environment. Term often used by
+the new edge community. (sidebar: from new CD to magazine to etc)
+
+Toasternet - Putting together a LAN, WAN or Internet hook up with the
+cheapest of technology. Read up on Toasternets on the Wells Gopher.
+
+Usenet - A collection of "newsgroups" on the Internet, in which Internet
+users may post or read messages on almost any subject imaginable. The
+topics of discussion are divided up into the individual newsgroups, which
+total about 2000 on average. Usenet is divided into various large
+sections, including the 'alt'ernative newsgroups, the 'comp'uter
+newsgroups, the 'sci'ence newsgroups and the 'talk' newsgroups, among
+others. Some groups are moderated, while most remain completely
+uncensored. Usenet is often referred to as Abusenet for its all-too
+familiar flames and appearance of perpetual chaos.
+
+Virtual Community - any group or gathering that exists in cyberspace. This
+could be a BBS, a hacking group, a net, or even a zaibatsu.
+
+Virtual Culture - the collection of virtual communities, and the cultural
+aspects unique to those communities.
+
+Virtual Reality - a consentual hallucination of a world existing only in
+cyberspace.  Modern day virtual reality uses helmets, gloves, and body
+suits to create such a world, which is first created on a computer and
+connected to the vr devices. A goal of some virtual reality researchers is
+to generate a completely alternate reality. Research in vr includes
+networking people, so spatial limitations are meaningless. The
+possibilities of vr-generated environments are as limitless as the
+imagination.
+
+Virtual World - a world existing in cyberspace created and used with
+virtual reality technologies.
+
+WELL - The Whole Earth 'Lectronic Link. An important gridpoint in the
+matrix, a virtual community in cyberspace, also a BBS connected to the
+Internet. A group concerned mostly with cyberpunk, virtual reality,
+nootropics, and other aspects of the new edge. Many celebreties have an
+account on the Well.
+
+WIRED - A new magazine devoted to exploring virtualspace and new
+technologies. Wired is not as new edge as Mondo 2000 and seemingly gives
+off a more corporate news oriented format. However, it is a refreshing
+view and perhaps infonomics first steps into the public realm. (The TIME
+magazine of virtual culture.)
+
+Wirehead - a hardware hacker.
+
+Zaibatsu - Japanese term used a lot by William Gibson that means a large
+mega-corporation, such as Sony for example.
+
+
+ ______   _____    __   __   ______    
+/\  ___\ /\  __ \ /\ "-.\ \ /\__  _\  
+\ \ \____\ \ \/\ \\ \ \-.  \\/_/\ \/  __
+ \ \_____\\ \_____\\ \_\\"\_\  \ \_\ /\_\
+  \/_____/ \/____ / \/_/ \/_/   \/_/ \/_/  In Part 2 of 5
+                                           copyright 1994 John Frost
+
+
+How To Get Into College
+     by
+Ian Osmond (AKA Xiphias Gladius, Esq.)
+
+Getting into college these days is a competitive business.
+Luckily, you're competing against people who have no clue
+what they are doing.  Unluckily, neither do you.  So, with
+the clue or two you may glean from this manuscript, you will
+be ahead of the game.
+
+     Colleges look at the following five things, which will
+be dealt with in this paper in order of importance:
+     A. Transcript
+     B. SAT/ACT scores
+     C. Teacher recommendations
+     D. Essays
+     E. Resume - a list of all the stuff you've done besides
+          school
+
+Section 1 - Transcript
+
+     For those of you who don't recognize the term, this is
+the official copy of your grades in High School.  "What?" you
+cry?  " thought those were practice grades!"  Never fear!
+Your problem can be solved simply with a bobby pin, some
+white-out and a ball-point pen!
+
+     The locks on school file cabinets are rather pitiful.
+Frankly, I've never successfully picked one, but I am a klutz
+anyway, and need a professional lock-gun to pick my teeth.
+Nonetheless, once you have your official transcript in your
+sweaty little hands, your work is nearly done.
+
+     My High School makes it easy.  Each year's grade record
+is printed on a separate standard oversize mailing label.
+The final GPA and class rank are printed on a standard normal
+mailing label.  The printing is done with a nine-pin dot-
+matrix printer on draft quality.  A student from Arlington
+High merely needs to procure five mailing labels, re-print
+his/her transcript, with the grades s/he INTENDED to get, re-
+calculate and print his/her GPA, and put down a new,
+reasonable, class rank.
+
+Section 2 - SAT/ACT Scores
+
+     The Scholastic Aptitude Test and the American College
+Test are the two standard tests requested by colleges.  YOU
+NEED TAKE ONLY ONE OF THESE!  Of the two, the ACT provides
+the more accurate indicator of probable performance in
+college, as it tests reading, math, deductive reasoning, and
+science ability.  NOBODY in the Northeast takes the ACT.
+
+     A really good score on the SAT is about 1100 - 1200, and
+there are three ways to do this.  The first, and most highly
+recommended, is to be a genius.  Failing that, take a lot of
+expensive SAT preparatory courses.  The third method requires
+some work.
+
+     First, practice your guidance counselor's signature.
+Second, steal one piece of his/her stationery.  Sign up to
+take the SAT somewhere other than your school.  Bribe a local
+genius to take the test for you.  Type a description of the
+genius on the stationary, saying that the person of that
+description is you, and sign it WITH THE GUIDANCE COUNSELOR'S
+NAME.  This method has several advantages.  You get a better
+score on the SAT, the genius gets extra pocket money and a
+chance to practice taking the test, and, you don't have to
+wake up early on a Saturday.
+
+
+     Section 3 - Teacher Recommendations
+
+     If no teacher really likes you a lot, try bribery, or
+blackmail if you are getting short of cash.
+
+     Section 4 - Essays
+
+     Another cash-intensive area, there is much precedent for
+bribery here, too.  Again, if you can't, merely pay someone
+who can.  After all, when you get right down to it, isn't
+that the basis of our economic system?  Really, that's the
+foundation of Western Civilization, so how could it be wrong?
+
+     Section 5 - Your Resume
+
+     This section is weighted the least of the five major
+areas, which is unfortunate, because, with a little work,
+your resume can be spectacular!  It is worth your while to
+turn in an outstanding resume, not only to get into college,
+but also as practice for later life, in the business world.
+
+     The major rule in college resume writing is: there is
+nothing too insignificant, pointless, pitiful, or stupid to
+put on a resume.  Hey, let's face it, colleges are pretty
+much looking for length.  I'd like to give you a few examples
+of things you could put on a college resume, with real-world
+translations.
+
+College                                Translation / Comments
+I led an improvisational performance      I was the class
+troupe that staged impromptu routines     clown.
+for the amusement of my classmates
+at periodic points during the year.
+
+A home-course in hostile negotiations     I fought with my
+gave me the skills necessary to enter     parents.
+into contract in today's competitive
+business world.
+Independent research into the effects     Oh, c'mon - you can
+of certain chemical substances on the     figure this one
+human neurosystem.                        out!
+
+Studied the trade of locksmithing         Hey, I really know
+in order to learn a trade and become a    someone who did
+more-rounded individual                   this!
+
+Utilizing hard-to-come-by periodicals,    I collect rare
+I increased my appreciation of art-       Swedish porn mags.
+photography, and of the human form
+
+Independent research into computer        Well, I was
+security systems and cryptoanalysis,      arrested, but
+specifically as it pertains to the        the judge really
+Internet, and to the UNIX operating       liked me!
+system, gave me an opportunity to meet
+contacts who may be important in later
+life.
+
+My leadership position in a local         Our gang managed to
+youth group taught me responsibility,     increase its turf
+loyalty, and trust.  I was able to lead   six blocks last
+our organization through a period of      month.
+growth and expansion.
+
+    As you can see, there is nothing which can't be phrased
+in a positive manner! A few pointers on how to phrase things:
+  1. Stick in the phrase "independent research" a lot.  You
+     can do well with these words.
+  2. Keep a thesaurus handy.  You don't want to use the exact
+     same words too often.
+  3. Colleges like stuff that shows leadership and maturity -
+     aim for that in how you phrase stuff.
+  4. Don't use profanity.
+  5. Do use a spell-checker.  Nothing is more embarrassing to
+     you and to the college than your claiming that you won a
+     "speling bee".
+  6. Get everything in BEFORE THE DEADLINE.
+
+     I hope this paper has been useful to you, and good luck
+to you as you go through the college application process.
+Remember, many of the skills you will learn from this process
+will be useful in later life, too!
+
+><iphias Gladius, Esq.
+OWL AND LARK QUESTIONNAIRE
+
+Reprinted from the book 'Wide Awake at 3:00 am. By Choice or by Chance '
+by Richard M. Coleman. The questionnaire was adapted from an article
+entitled "A Self Assesment Questionnaire to Determine
+Morningness-Eveningness in Human Circadian Rhythms" by J. A. Horne and
+O. Ostberg. The original article appeared in International Journal of
+Chronobiology, Vol. 4, 97-110, (London: Gordon and Breach Publishers
+Ltd., 1976)
+
+Instructions:
+1. Please read each question very carefully before answering.
+2. Answer ALL questions.
+3. Answer questions in numerical order.
+4. Each question should be answered independently of others. Do NOT go
+back and check your answers.
+5. All questions have a selection of answers. For each question choose
+one answer only. Some questions have a scale instead of a selection of
+answers. Note the time of the appropriate answer on the scale and select
+the corresponding number below the scale as your answer.
+
+
+Questions
+
+1. Considering only your own "feeling best" rhythm, at what time would
+you get up if you were entirely free to plan your own day?
+
+5 am     6:30       7:45              9:45      11:00     12 pm
+<--- 5 --> <---4 ---> <-------3-------> <----2---> <---1--->
+
+
+2. Considering only your own "feeling best" rhythm, at what time would
+you go to bed if you were entirely free to plan your evening?
+
+8 pm    9:00       10:15               12:30 am   1:45       3 am
+<---5---> <----4----> <--------3--------> <----2---><----1---->
+
+
+3. If there is a time at which you have to get up in the morning, to
+what extent are you dependent on being woken up by an alarm clock?
+
+Not at all dependent   ->  4
+Slightly dependent     ->  3
+Fairly dependent       ->  2
+Very dependent         ->  1
+
+4. Assuming adequate enviromental conditions, how easy do you find
+getting up in the mornings?
+
+Not at all easy  -> 1
+Not very easy    -> 2
+Fairly easy      -> 3
+Very easy        -> 4
+
+5. How alert do you feel during the first half-hour after having woken
+in the morning?
+
+Not at all alert  -> 1
+Slightly alert    -> 2
+Fairly alert      -> 3
+Very alert        -> 4
+
+6. How is your appetite during the first half-hour after having woken in
+the morning?
+
+Very poor   -> 1
+Fairly poor -> 2
+Fairly good -> 3
+Very good   -> 4
+
+7. During the first half-hour after having woken in the morning, how
+tired do you feel?
+
+Very tired         -> 1
+Fairly tired       -> 2
+Fairly refreshed   -> 3
+Very refreshed     -> 4
+
+8. When you have no commitments the next day, at what time do you go to
+bed compared to your usual bedtime?
+
+Seldom or never later       -> 4
+Less than one hour later    -> 3
+1-2 hours later             -> 2
+More than two hours later   -> 1
+
+9. You have decided to engage in some physical excercise. A friend
+suggests that you do this one hour twice a week and the best time for
+him is between 7:00 - 8:00 am. Bearing in mind nothing else but your own
+"feeling best" rhythm how do you think you will perform?
+
+Would be in good form            -> 4
+Would be in reasonable form      -> 3
+Would find it difficult          -> 2
+Would find it very difficult     -> 1
+
+10. At what time do you feel tired and as a result in need of sleep?
+
+
+8 pm    9:00       10:15                 12:45 am     2:00     3 am
+<---5---> <----4----> <---------3---------> <----2--- > <---1--->
+
+11. You wish to be at your peak performance for a test which you know is
+going to be mentally exhausting and lasting for two hours? You are
+entirely free to plan your day and considering only your own "feeling
+best" rhythm which ONE of the four testing times would you choose?
+
+8:00 - 10:00 am.       -> 4
+11:00 am. - 1:00 pm.   -> 3
+3:00 - 5:00 pm.        -> 2
+7:00 - 9:00 pm.        -> 1
+
+12. If you went to bed at 11:00 pm. at what level of tiredness would you
+be?
+
+Not at all tired  -> 0
+A little tired    -> 2
+Fairly tired      -> 3
+Very tired        -> 5
+
+13. For some reason you have gone to bed several hours later than usual,
+but there is no need to get up at any particular time the next morning.
+Which ONE of the following events are you most likely to experience?
+
+Will wake up at usual time and will NOT fall asleep    -> 4
+Will wake up at usual time and will doze thereafter    -> 3
+Will wake up at usual time but will fall asleep again  -> 2
+Will NOT wake up until later than usual                -> 1
+
+14. One night you have to remain awake between 4:00 - 6:00 am. in order
+to carry out a night watch. You have no commitments the next day. Which
+ONE of the following alternatives will suit you best?
+
+Would NOT go to bed until watch was over       -> 1
+Would take a nap before and sleep after        -> 2
+Would take a good sleep before and nap after   -> 3
+Would take ALL sleep before watch              -> 4
+
+15.You have to do two hours of hard physical work.  You are entirely
+free to plan your day and considering only your own "feeling best"
+rhythm which ONE of the following times would you choose?
+
+8:00-10:00 am     -> 4
+11:00am -1:00pm   -> 3
+3:00-5:00pm       -> 2
+7:00-9:00pm       -> 1
+
+16.  You have decided to engage in hard physical exercise.  A friend
+suggests that you do this for one hour twice a week and the best time
+for him is between 10:00-11:00pm.  Bearing in mind nothing else but your
+own "feeling best" rhythm how well do you think you would perform?
+
+Would be in good form.            -> 1
+Would be in reasonable form.      -> 2
+Would find it difficult.          -> 3
+Would find it very difficult.     -> 4
+
+17.  Suppose that you can choose your own work hours.  Assume that you
+worked a FIVE-hour day (including breaks) and that your job was
+interesting and paid by results.  Which FIVE CONSECUTIVE HOURS would you
+select?
+
+12  1  2  3  4  5  6  7  8  9  10  11  12  1  2  3  4  5  6  7  8  9  10  11 12
+Midnight                              Noon                             Midnight    
+<-----1-----> <----5---->4<-------3--------> <----2---> <----------1---------->
+
+
+18.  At what time of the day do you think that you reach your "feeling
+best" peak?
+
+12  1  2  3  4  5  6  7  8  9  10  11  12  1  2  3  4  5  6  7  8  9  10  11 12  Midnight                             Noon                             Midnight                          
+<-----1-----> <---5--> <-4-> <----------3-----------> <------2------> <---1--->
+
+19.  One hears about "morning" and "evening" types of people.  Which ONE
+of these types do you consider yourself to be?
+
+Definitely a "morning" type?                       -> 6
+Rather more a "morning" than an "evening" type?    -> 4
+Rather more an "evening" than a "morning" type?    -> 2
+Definitely an "evening" type?                      -> 0
+
+Scoring This Questionnaire
+
+The scores are added together and the sum converted into a five-point
+Morningness-Eveningness scale:
+
+
+                        Morning-Evening Scale    Score
+
+                        Definitely Morning Type  70-86
+                        Moderately Morning Type  59-69
+                        Neither Type             42-58
+                        Moderately EveningType   31-41
+                        Definately Evening Type  16-30
+
+
+X-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-X
+
+ Another file downloaded from:                               NIRVANAnet(tm)
+
+ & the Temple of the Screaming Electron   Jeff Hunter          510-935-5845
+ Rat Head                                 Ratsnatcher          510-524-3649
+ Burn This Flag                           Zardoz               408-363-9766
+ realitycheck                             Poindexter Fortran   415-567-7043
+ Lies Unlimited                           Mick Freen           415-583-4102
+
+   Specializing in conversations, obscure information, high explosives,
+       arcane knowledge, political extremism, diversive sexuality,
+       insane speculation, and wild rumours. ALL-TEXT BBS SYSTEMS.
+
+  Full access for first-time callers.  We don't want to know who you are,
+   where you live, or what your phone number is. We are not Big Brother.
+
+                          "Raw Data for Raw Nerves"
+
+X-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-X
+Used Car Checklist:
+Standing Check :
+1)   Mileage: 12,000 / yr normal
+2)   Paint over spray:
+     a)   Tailpipe-
+     b)   Moldings-
+     c)   Windows-
+3)   Rust:
+     a)   Fenders-
+     b)   Doors-
+     c)   Rocker Panels-
+     d)   Window Moldings-
+     e)   Wheel wells-
+     f)   Flooring-
+     g)   Bed-
+4)   Body Appearance (Crash work?):
+     a)   Moldings-
+     b)   Bumpers-
+     c)   Grille-
+     d)   Vinyl Roof-
+     e)   Glass-
+     f)   Doors-
+     g)   Tailgate-
+     h)   Body Panels-
+5)   Leaks (No leaks are normal other than radiator spout):
+6)   Tires:
+     a)   Check Air Pressure
+     b)   Check Condition of spare tire.
+     c)   Check for uneven wear
+7)   Shock Absorbers:
+     a)   Push down hard on each corner, good shocks won't allow
+          more than two rebounds   
+8)   Interior:
+     a)   New seat covers on sagging seats?
+     b)   New pedal pads and worn armrests?
+     c)   Water leaks or flooding signs under floor mats?
+     d)   Missing hardware (Door handles, knobs)
+     e)   Lights and signal operation
+     f)   All accessories (Radio, Air cond.[expensive repairs!],
+          Heater) operational?
+     g)   Windshield Wipers
+9)   Belts and Hoses:
+     a)   Wear cracks or weak spots
+     b)   Check for stains on hose connections (indicates leaks)
+10)  Battery:
+     a)   Low electrolyte level
+     b)   Corroded terminals 
+     c)   Cracked case
+11)  Radiator:
+     a)   Corrosion or rust in the coolant
+12)  Air Filter:
+     a)   Dirty air filter indicates lack of maintenance
+
+
+13)  Spark Plug Wires:
+     a)   Cracks in wires
+     b)   Burned spots or wear
+14)  Oil level:
+     a)   Low level indicates
+          [1]  Lack of maintenance
+          [2]  Excessive oil burning
+          [3]  Possible leaks
+     b)   If oil on dipstick is
+          [1]  foamy or tan (indicating leakage of coolant into
+               oil)
+          [2]  Thin or smells like gasoline (leakage of fuel into
+               oil)
+          DON'T BUY THE VEHICLE!!
+15)  Automatic Transmission:
+     a)   Warm Transmission fluid should be full, cold should
+          appear about 1 pint low.
+     b)   Fluid should be bright, translucent red.
+     c)   Brown/Black fluid (especially if smells burned) says
+          transmission needs MAJOR repairs.
+16)  Exhaust:  
+     a)   Blue smoke indicates excessive oil usage due to major
+          internal problems
+     b)   Black Smoke can indicate burned valves, or carburetor
+          problems (improper fuel mixture)
+     c)   Check exhaust system for leaks (They are expensive to
+          repair)
+17)  Spark Plugs:
+     a)   Good plugs have light tan or grey deposit on electrode.
+
+If 2 or more items from 1-8 have problems, there has been poor
+maintenance, reconsider selection.  9-13 indicate lack of proper
+maintenance, but relatively inexpensive to repair.  If there is any
+problem in 14-17 FORGET IT you have a lemon.
+
+Road Test
+
+1)   Engine Performance:
+     a)   Good accelerator response?
+     b)   Adequate power?
+     c)   Smooth acceleration through gears?
+2)   Brakes:
+     a)   Brakes should give quick firm stops, no squealing,
+          pulling or fading.
+3)   Steering:
+     a)   Sure control?
+     b)   Binding, harshness, or looseness, or wheel shimmy is
+          trouble
+     c)   Noise or vibration in steering wheel means trouble
+4)   Clutch:
+     a)   Quick, smooth engagement in and through gears
+
+
+
+5)   Manual Transmission:
+     a)   Smooth shifting?  Easy change of gears?
+     b)   Clashing, grinding, whining, or sticking in gear is
+          trouble.
+6)   Automatic Transmission:
+     a)   Smooth rapid shifting?
+     b)   No noise, hesitation, or slipping should be present
+     c)   Transmission should not shift back and forth until needed
+7)   Differential:
+     a)   Noise or thumps?
+     b)   External leakage?
+8)   Driveshaft, U-Joints:
+     a)   Vibration and noise can mean driveshaft problems
+     b)   Clicking at low speed means worn U-Joints
+9)   Suspension:
+     a)   If truck bounces at low speeds has weak shock absorbers.
+     b)   Clunks mean worn bushings or ball joints
+10)  Frame:    
+     a)   Wet tires and drive short distance.
+          [1]  2 sets of treads is normal, 4 means frame is bent
+               by collision damage
+     b)   Also check by having someone follow to see if car appear
+          to travel in straight line or crooked.
+                       BODYBUILDING MYTHS 
+                     -----------------------
+         extract from: "GOLDS GYM book of bodybuilding"
+
+At some point someone probably told you that working out with 
+weights would make you muscle-bound or cause a woman to look like 
+a man. Certainly, most good bodybuilders have been told that their 
+muscles will turn to fat if they stop training.
+
+There are six main "muscle myths" that must be exposed.  In each 
+case we will discuss the myth and then reveal the truth underying 
+it.  This process should dispel any remaining doubts you might 
+have about becoming a body-buiding.
+
+1.  BODYBUILDNG TRAINING WILL MAKE YOU MUSCLE-BOUND.  This is 
+probably the most persistent muscle myth, and it suggests that 
+working out with weights will make your body so tight and 
+inflexible that you won't be able to scratch your own back or 
+participate effectively in athletics.
+
+Actually, scientists began investigating weight training and 
+bodybuilding more than 30 years ago. They quickly discovered that 
+weight workouts actually improve body flexibility.  Indeed, almost 
+all bodybuilders  are far more flexible than the average person.  
+Those who aren't have invariably been injured while 
+participating in some other sport.  As an example, a shoulder 
+separation incurred while playing football can easily limit 
+shoulder flexibility and function.
+
+Speaking of football, superstar Walter Payton of the Chicago Bears 
+has used progressive resistance weight training to build massive 
+arms and shoulders.  He can walk 50 yards on his hands, punishes 
+anyone who tries to tackle him, and has never been seriously 
+injured despite being near to the top of the NFL's "hit list" for 
+several years.  He's flexible and then some!
+
+2.  ALL OF YOUR MUSCLES WILL TURN TO FAT ONCE YOU STOP WORKING 
+OUT.  It is physiologically impossible for muscle tissue to be 
+converted to fat.  What actually happens when you suspend your 
+weight workouts is that your muscles gradually atrophy, or shrink 
+in size and strength.  This process takes about a year to run its 
+course.
+
+Then why are some former bodybuilders fat today?  The answer to 
+this question is true for  ALL of the numerous athletes in any 
+sport who have become fat after retiring from competition.  When 
+you train virtually every day for several hours you regularly burn 
+up relatively large quantities of calories.  As a result, you can 
+consume more food than you can if you are physically inactive.  
+But when you  suspend training you no longer burn up so many 
+calories.  So, if you continue to eat the same amount as when you 
+were working out every day, you will accumulate a caloric excess 
+and gradually gain body fat.  The obvious solution to this problem 
+is to decrease your caloric consumption to compensate for the 
+calories you are no longer burning off in your workouts.  If you 
+follow this advice, you will never grow fat after you cease heavy 
+training with weights.
+
+In actual practice, few bodybuilders ever stop training for very 
+long.  As they grow older they don't train as intensely as when 
+they were competing, but they still hit the gym almost every day.  
+Once you have iron fever, you're usually hooked for life.
+
+3.  BODYBUILDING WILL MAKE A WOMAN LOOK LIKE A MAN.  As noted in 
+the foregoing section on men versus women, women don't secrete the 
+same amounts of testosterone as do men.  Therefore, they simply 
+can't develop a man's muscle mass and quality.  Additionally, a 
+woman secretes large quantities of estrogen, which guarantees the 
+integrity of her femininity.  Unless she makes the disastrous 
+mistake of taking male hormones, no woman will look masculine as a 
+result of her bodybuilding training.
+
+4.  BODYBILDING TRAINING CAN STUNT YOUR GROWTH.  There are a 
+somewhat disproportionate number of male and female competitive 
+bodybuilders who are below the national average in height, leading 
+some individuals to conclude that bodybuilding workouts can stunt 
+one's growth.  Taler athletes are usually naturally selected for 
+other sports in what could be called a sort of "sports Darwinism."  
+Having a more compact torso and short limbs allows the bodybuilder 
+to attain the proper proportions needed to win a contest.  As a 
+result, bodybulding tends to naturally select short or medium-
+statured men and women.
+
+There are numerous tall bodybuilders, such as  Lou Ferrigno 
+(6'5") and Dr. Lynne Pirie (5'9").   Scientists have determined 
+that any type of physical activity will tend to stimulate height 
+increases rather than inhibit them.  Proper diet can also result 
+in height increase, and bodybuilders consistently follow health-
+promoting diets.  Certainly, parents needn't worry that their sons 
+and daughters will end up being short in stature simply because 
+they decide to become bodybuilders.
+
+5.  BODYBULDING TRAINING WILL WRECK YOUR BACK, KNEES, ELBOWS, AND 
+OTHER JOINTS.  Such spinal or joint injuries are much more common 
+in other sports than in bodybuilding.  As long as you follow the 
+warm-up procedures we will outline, and maintain the correct 
+biomechanical (body) positions for each exercise, you needn't fear 
+damaging your joints through bodybuilding training.
+
+6.  BODYBUILDING TRAINING CAN SLOW YOU DOWN.  As with the myth 
+about becoming muscle-bound, scientists proved more than 30 years 
+ago that heavy weight training improves speed rather than 
+detracting from it.  Reaction time can't be improved through 
+weight workouts, but a stronger muscle can contract faster and 
+more strongly, thereby moving a limb more quickly.  S print speed, 
+for example, is a direct function of thigh and calf strength.  In 
+modern athletics, virtually all athletes include weight training 
+in their overall conditioning regimes.  They certainly wouldn't do 
+this if heavy weight workouts inhibited their speed, because it 
+could reduce their athletic ability.
+ 
+                               
+
+    "Buying Your Massachusetts Automobile Insurance" has been 
+prepared for you by the Massachusetts Division of Insurance as 
+part of our continuing effort to inform consumers on the 
+detailed and sometimes complex aspects of purchasing automobile 
+insurance in the Commonwealth.  This guide outlines the basic 
+automobile coverages you are required by law to purchase, as 
+well as the coverages available to you on an optional basis.  
+We have also included a description of the newly amended Safe 
+Driver Insurance Plan - the Commonwealth's merit rating plan 
+which offers premium credits to policyholders who practice safe 
+driving habits.  Furthermore, this guide provides information 
+on filing complaints and money-saving tips for reducing your 
+premium without sacrificing insurance protection.  
+
+    If you receive this pamphlet after you purchase your 1990 
+automobile insurance and you wish to make changes in the 
+coverage, limits, deductibles or discounts, contact your agent 
+or company.  They can assist you.  If you are not satsified 
+call us.  Our Consumer Service Section can be contacted at 
+(617) 727-7189, X 300.
+
+
+    As you know, the Automobile Insurance Reform Act of 1988 
+succeeded in updating our no-fault system, lowered the costs of 
+repairing damaged vehicles, expanded consumers' choices and 
+initiated long-term, cost-saving efforts that will benefit 
+consumers into the 1990s. 
+
+The 1988 Reform Law addressed the rising costs in the system 
+through both tort law changes, such as the increase in the tort 
+threshold from $500 to $2000, and coverage changes, including 
+the increase in Personal Injury Protection (PIP) from $2,000 to 
+$8,000, and the coordination of benefits between health 
+insurance and PIP coverage.  Consumers have realized reduced 
+premiums from additional coverage changes and newly available 
+discounts.  The Reform Law increased the standard deductible 
+from $300 to $500 for both collision and comprehensive 
+coverages and created an optional $100 glass deductible.  Also, 
+additional rated reductions are now available for consumers 
+whose vehicles are equipped with both an anti-theft device and 
+an auto recovery system, and for cars equipped with air bags or 
+passive restraint devices. 
+
+A new Safe Driver Insurance Plan will mean substantially 
+reduced premiums for long time good drivers.  
+
+This year, a new Safe Driver Insurance Plan takes effect.  The 
+aim of the Plan is to make the Massachusetts merit rating 
+system more fair by ending the subsidization of unsafe drivers 
+by good drivers.  The Plan, known as a "bonus malus" system, 
+can be compared to a ladder.  The bottom of the ladder 
+represents the lowest premiums and the top of the ladder 
+represents the highest premiums.  Drivers will be assigned 
+credits and surcharges that are a percentage of the premium for 
+specific coverages.  Each year, drivers with an incident-free 
+record move down one step on the ladder and earn a premium 
+credit.  Drivers who have at-fault accidents or certain traffic 
+violations move up the ladder a number of steps equal to the 
+number of unsafe driver points assigned and will be assessed a 
+surcharge for each point.  Each step up or down the ladder is 
+equal to 7% of the driver's premium for liability coverage 
+(bodily injury, PIP, and property damage liability) and 5% of 
+the premium for collision coverage.  
+
+
+
+
+
+
+
+
+
+
+
+                  BUYING YOUR MASSACHUSETTS 
+
+                      AUTOMOBILE INSURANCE
+
+                              1990
+
+
+
+
+
+
+
+
+
+                       MICHAEL S. DUKAKIS
+                   Governor of Massachusetts
+
+
+                       TIMOTHY H. GAILEY
+                   Commissioner of Insurance
+
+
+
+                 Commonwealth of Massachusetts 
+                     Division of Insurance
+
+
+CONTENTS
+
+1. COMPULSORY COVERAGES
+       Part  1:  Bodily Injury to Others..................
+       Part  2:  Personal Injury Protection...............
+       Part  3:  Bodily Injury Caused by an 
+                 Uninsured Auto...........................
+       Part  4:  Damage to Someone Else's Property........
+2. OPTIONAL COVERAGES
+       Part  5:  Optional Bodily Injury to Others.........
+       Part  6:  Medical Payments.........................
+       Part  7:  Collision................................
+       Part  8:  Limited Collision........................
+       Part  9:  Comprehensive............................
+       Part 10:  Substitute Transportation................
+       Part 11:  Towing and Labor.........................
+       Part 12:  Bodily Injury Caused by an 
+                 Underinsured Auto........................
+3. SAVING MONEY...........................................
+4. 1990 SAFE DRIVER INSURANCE PLAN........................
+5. FILING A COMPLAINT.....................................
+
+
+
+                     FROM THE COMMISSIONER 
+
+       "Buying Your Massachusetts Automobile Insurance" has 
+been prepared for you by the Massachusetts Division of 
+Insurance.  This guide contains a description of the basic 
+coverages you are required by law to purchase, as well as the 
+coverages available to you on an optional basis.  We have also 
+included information on filing complaints and money-saving tips 
+for reducing your premium without sacrificing insurance 
+protection.
+       Many motorists pay a higher premium than they should 
+because they choose coverages that do not suit their needs.  
+The most common and costly mistake consumers make when buying 
+automobile insurance is to renew their policy without assessing 
+how their individual insurance needs might have changed.  
+Instead, before you renew your policy, reevaluate your 
+insurance choices and your eligibility for the many discount 
+opportunities.  Also, buy only the coverage you need and select 
+deductibles you can afford. 
+       The Safe Driver Insurance Plan (SDIP), which offers 
+premium credits to motorists who practice safe driving habits, 
+has been significantly changed for 1990.  Although automobile 
+insurance will always be expensive in an urban, densely 
+populated state like Massachusetts, you can reduce the cost of 
+your premium an average of $140 by driving safely and 
+maintaining an incident-free driving record.  Although the Plan 
+is complex, I urge you to read Part 4 of this guide carefully 
+for information on the Plan's many new improvements. 
+       Please keep in mind that this guide is not meant to be a 
+substitute for the Massachusetts Automobile Insurance Policy.  
+Always refer to your Policy for the exact terms and conditions 
+of your automobile insurance.  If you receive this guide after 
+you have renewed your policy for 1990, and you wish to make 
+changes in your coverage, limits, deductibles or discounts, 
+contact your agent or company.  They can assist you in making 
+the necessary changes.  If you need further information on 
+automobile insurance, contact the Division of Insurance at 280 
+Friend Street, Boston, MA 02114 (617) 727-7189 or 436 Dwight 
+Street, Room 338, Springfield, MA 01103, (413) 784-1190.  
+       
+
+
+                               Timothy H. Gailey
+                               Commissioner of Insurance
+
+
+
+                     COMPULSORY COVERAGES
+
+       Since 1927, under Massachusetts insurance law, motorists 
+have been required to purchase compulsory motor vehicle 
+liability insurance.  All registered motor vehicles in the 
+Commonwealth must be insured under Parts 1, 2, 3 and 4 of the 
+Massachusetts Automobile Insurance Policy.  When you buy this 
+insurance, you receive financial protection in case you become 
+involved in an accident.  
+       Of course, not all insurance-buying decisions are simple 
+or clear-cut, because you cannot predict the future.  When in 
+doubt, remember that it is more important to have insurance 
+against large losses which could threaten your standard of 
+living than smaller losses that you can afford to pay yourself. 
+
+Compulsory Coverages
+       Part 1: BODILY INJURY TO OTHERS will pay for the damages 
+to anyone injured or killed by your auto in Massachusetts up to 
+a limit of $10,000 per person and $20,000 per accident.
+       Part 1 applies whether your auto is being driven by you 
+or by someone else with your permission.  However, this 
+coverage never covers injuries to the driver of your auto or to 
+guests in your auto.
+       Limits higher than $10,000 per person and $20,000 per 
+accident and coverage for injuries incurred by guest occupants 
+of your auto and for out-of-state accidents may be purchased 
+under Part 5.  
+
+       Part 2: PERSONAL INJURY PROTECTION (PIP), provides 
+payment of up to $8,000 to you, anyone driving your auto with 
+your consent, anyone living in your household, passengers in 
+your auto and pedestrians struck by your auto, for expenses 
+incurred as the result of an accident, without regard to 
+fault.  PIP pays for medical expenses, replacement services and 
+75% of any lost wages.  
+       If you already have good health insurance and disability 
+health plans - provided by your employer, for example - you 
+should consider taking a deductible and excluding yourself and 
+the members of your household from this coverage.  However, 
+remember that even with a comprehensive health insurance plan, 
+you would not be provided with coverage for lost wages and 
+replacement services, unless your employer offers a wage 
+continuation program.          
+
+
+
+       Even with a large deductible for you and members of your 
+household, guests in your automobile and pedestrians are still 
+fully covered.
+
+       Part 3: BODILY INJURY CAUSED BY AN UNINSURED AUTO 
+protects you, members of your household, and guests in your 
+automobile against losses caused by an uninsured automobile, or 
+from a hit-and-run accident, unless the household member or 
+guest is protected by their own or another auto insurance 
+policy.  In addition, this coverage protects you and members of 
+your household as pedestrians against injuries caused by an 
+uninsured auto or a hit-and-run driver.  
+       Compulsory uninsured automobile coverage requires a 
+minimum limit of $10,000 per person and $20,000 per accident.  
+Increasing this coverage makes good sense for most people, 
+especially for persons who travel outside of Massachusetts, as 
+compulsory auto insurance is not mandatory in all states. 
+       Please keep in mind that you can purchase Part 3 
+coverage with limits that are lower than but not higher than 
+the limits you purchase for Part 5.  It is recommended that you 
+purchase this coverage in limits equal to the limits you 
+purchase under Part 5.
+       Part 4: DAMAGE TO SOMEONE ELSE'S PROPERTY pays for 
+property damage and for costs resulting from the loss of the 
+use of property damaged from an accident caused by you, a 
+household member or anyone using your auto with permission.  
+This Part never covers damage to your automobile or property.  
+       The minimum amount required is $5000.  However, you 
+should consider purchasing this insurance with higher limits.  
+Today's new car and repair prices being what they are, a limit 
+of $25,000 is a good choice for many people.  
+
+
+
+
+                      OPTIONAL COVERAGES
+
+       There are eight other coverages available to you in 
+addition to the compulsory insurance, and in general it is up 
+to you whether you purchase them or not.  These optional 
+coverages provide additional protection against financial loss 
+resulting from an automobile accident.  If you have borrowed 
+money to purchase your automobile, your lender may legally 
+require you to carry the optional coverages, Collision (Part 7) 
+and Comprehensive (Part 9).
+.  Your insurance company may refuse to issue you some optional 
+coverages because of certain prior driving violations or 
+insurance-related crimes.  
+
+Optional Coverages
+       Part 5: OPTIONAL BODILY INJURY TO OTHERS allows you to 
+extend the protection you must purchase under Part 1, by 
+offering coverage above the $10,000/$20,000 limit for injuries 
+caused by you in Massachusetts, in other parts of the United 
+States and in Canada.  
+       Unlike the compulsory Bodily Injury insurance, Part 5 
+will pay for injuries to guests of your automobile and for 
+injuries to others caused by any person who is using your car 
+with your consent.
+       To protect your assets and future income, it makes good 
+sense to buy higher limits under this Part; $100,000 per person 
+and $300,000 per accident will meet most drivers needs.  Such 
+additional coverage is valuable since, considering the rising 
+costs of medical and hospital care, court judgments can easily 
+exceed $20,000. 
+
+       Part 6: MEDICAL PAYMENTS covers medical expenses for 
+injuries resulting from any accident involving you, any 
+household member and any passenger, once the limits provided 
+under Part 2, Personal Injury Protection have been exhausted.  
+It does not cover lost wages.  Drivers who have comprehensive 
+health insurance plans may not need the extra coverage provided 
+under Part 6.  
+       You should, however, think about buying this Part if you 
+and your household members do not already have adequate health 
+insurance or if you want this protection for passengers in your 
+automobile.
+
+       Part 7: COLLISION insurance pays for damage to your 
+automobile caused by a collision regardless of fault.  The cost 
+of collision protection varies with the model and year of your 
+automobile, where it is garaged and the operator 
+classification.  Because it pays for damages regardless of 
+fault, this Part is expensive to purchase.  
+       Unfortunately, there is no good rule-of-thumb to use 
+when purchasing Collision coverage.  If your automobile is 
+financed, your lender may require you to carry this Part on 
+your policy.  However, if you own your automobile outright, 
+your decision to purchase Collision should depend on whether or 
+not you can afford to replace your automobile without help from 
+your insurance company.
+
+
+
+       A deductible is the portion of each claim you agree not 
+to be covered for.  For example, if you purchase Collision with 
+the standard $500 deductible and you suffer a loss of $700, you 
+will collect $200 from your insurance company.  If a loss of 
+less than $500 occurs, you are responsible for the entire 
+amount.  Collision protection can be purchased at a much lower 
+price when you purchase a deductible higher than the standard 
+$500 deductible.  Choose the larger deductible if you can 
+afford to pay a larger loss out of your own pocket.  You also 
+have the option to purchase the more expensive $300 
+deductible.  The choice is not an easy one, so take the time to 
+evaluate your financial circumstances when purchasing this and 
+any other available deductible. 
+       Your company may require a $500 Collision or Limited 
+Collision deductible if you have had a major at-fault accident 
+within the previous three years. 
+       WAIVER OF DEDUCTIBLE coverage may be purchased at a 
+higher premium if you opt to purchase Collision coverage.  The 
+Waiver of Deductible allows any deductible you choose to be 
+ignored in cases of fault on the part of another identifiable 
+driver.  The deductible would not be waived in a hit-and-run 
+accident, even if the unidentifiable party was completely at 
+fault.  
+       You might choose to purchase the Waiver of Deductible 
+for the benefit it offers if you are involved in an accident 
+caused by an identifiable, insured driver.  While many 
+policyholders are willing to pay the additional cost for the 
+Waiver of Deductible's convenience, others view the benefits as 
+too few to justify the extra premium.  
+       NOTE:  Your failure to list a household member as an 
+operator on your policy may have very serious consequences.  
+Your insurer will not pay for a Collision loss for an accident 
+which occurs while your auto is being operated by a household 
+member who is not listed as an operator on your policy.  
+Payment is withheld when the household member, if listed, would 
+require the payment of additional premium on your policy 
+because the household member would be classified as an 
+inexperienced operator or a higher rating step would be 
+assigned under the Safe Driver Insurance Plan. 
+
+       Part 8: LIMITED COLLISION also pays for damages to your 
+automobile caused by a collision, although in limited 
+circumstances.  Because this coverage is not as broad as Part 
+7, its cost is considerably less.
+       This coverage will not pay for one-car accidents, 
+accidents in which you are more than 50% at fault or for 
+accidents where the owner or driver of the other vehicle cannot 
+
+
+be identified.  Limited Collision will pay for most other 
+accidents and offers the convenience of dealing with your own 
+insurance company.   
+       If you are willing to pay for the damage you might cause 
+to your auto, or if the value of your auto does not justify 
+purchasing full Collision coverage, then Limited Collision or 
+no collision coverage is your best bet.  
+       You may reduce or eliminate the $500 standard Limited 
+Collision deductible for an extra premium.
+       NOTE:  Your failure to list a household member as an 
+operator on your policy may have very serious consequences.  
+Your insurer will not pay for a Limited Collision loss for an 
+accident which occurs while your auto is being operated by a 
+household member who is not listed as an operator on your 
+policy.  Payment is withheld when the household member, if 
+listed, would require the payment of additional premium on your 
+policy because the household member would be classified as an 
+inexperienced operator or a higher rating step would be 
+assigned under the Safe Driver Insurance Plan.
+
+       Part 9: COMPREHENSIVE coverage will pay for losses which 
+are not caused by a collision, such as fire, theft and 
+vandalism losses.  In addition, this insurance will pay you up 
+to $15 a day for substitute transportation until your stolen 
+auto is recovered (up to a limit of $450).
+       Comprehensive coverage does not insure personal 
+belongings in your auto unless they have been made a permanent  
+part of your automobile.  This means that clothing is never 
+covered, but a C.B. radio permanently installed in the opening 
+of the dash or console is.
+       The standard deductible for Comprehensive coverage is 
+$500, although you have the option to purchase a $300 
+deductible.  As with the Collision coverage, buying back to the 
+lower deductible will raise your premium cost.  Seriously 
+consider choosing a larger deductible than the standard one if 
+you can afford to pay a larger loss out of your own pocket.  
+You should also consider installing an anti-theft device and/or 
+a signal-activated vehicle recovery system.  Anti-theft 
+equipment and recovery system discounts, which are discussed in 
+the Saving Money Section, range from 5% to 35%.  
+       You also have the option of purchasing a $100 deductible 
+on glass claims.  If you take a deductible, you will reduce the 
+cost of your Comprehensive coverage by  %, however if you have 
+a claim for a broken windshield or other glass damage, you will 
+have to pay for the first $100 of that damage.   
+
+
+
+
+       Part 10: SUBSTITUTE TRANSPORTATION pays up to $15 a day 
+for car rental, taxicab fares and other transportation costs 
+(up to a limit of $450).
+       You should carefully consider whether you need this 
+coverage.  Claims for loss of use caused by another driver are 
+generally payable under that driver's Damage To Someone Else's 
+Property coverage (Part 4).  Comprehensive Coverage (Part 9) 
+provides reimbursement for loss of use resulting from theft.  
+Moreover, Substitute Transportation coverage does not pay under 
+all conditions.  If your auto is being repaired or replaced 
+because of damages that would be covered under Collision 
+coverage (Part 7), you can collect under Part 10.  There is no 
+coverage, however, if your auto is merely in the shop for 
+routine repairs.
+       Please note that if you are under the legal age or have 
+a poor credit rating you may be unable to rent a vehicle.  
+However, you do remain eligible for the reimbursement of 
+transportation expenses.  
+
+       Part 11: TOWING AND LABOR will pay up to $25 for towing 
+and labor charges each time your automobile breaks down.  The 
+cost of replacement parts is not covered and labor is covered 
+only to get your auto going again at the place of breakdown.  
+       If you belong to a motor club, you may already have 
+Towing and Labor coverage - so check your club's benefits 
+before purchasing Part 11. 
+       Your insurance company may legally refuse to sell you 
+Towing and Labor coverage. 
+
+       Part 12: BODILY INJURY CAUSED BY AN UNDERINSURED AUTO 
+will pay damages for bodily injury to people injured or killed 
+as the result of certain accidents caused by someone who does 
+not have enough insurance, up to the difference between the 
+total amount collected from the automobile bodily injury 
+liability insurance covering the owner and the operator of the 
+auto and the limits you purchased for this coverage.  
+       Your company will pay damages to or for you, or any 
+household member, unless the household member has his or her 
+own Massachusetts auto policy or is covered by a Massachusetts 
+auto policy of a household member providing similar coverage 
+with higher limits, if you are injured as a pedestrian or while 
+occupying an auto you do not own.  It will also pay damages to 
+or for anyone else occupying your auto unless that person has 
+his or her own Massachusetts auto policy or is covered by a 
+Massachusetts auto policy of any household member providing 
+similar coverage.
+
+
+
+
+Below are some examples of how this coverage works:
+EXAMPLE 1 - You do not buy the Underinsured Auto coverage.  You 
+are injured in an auto accident caused by the other driver who 
+is legally responsible for your injuries.  Your damages total 
+$20,000.  The other driver's Bodily Injury liability limit is 
+$10,000.  You can collect $10,000 from the other driver's 
+insurance, but you must sue the other driver to collect the 
+other $10,000.  If the other driver has no assets, you could 
+suffer a loss of $10,000.
+
+EXAMPLE 2 - You purchase Underinsured Auto coverage limits of 
+$20,000 per person; $40,000 per accident.  Your damages are 
+$30,000.  The other driver's policy provides $10,000 of Bodily 
+Injury liability insurance, which you collect from his 
+company.  You can only collect an additional $10,000 from your 
+company.  This is the difference between the amount collected 
+from all automobile Bodily Injury liability limits and your 
+Underinsured Auto limit of $20,000 for each person. 
+
+EXAMPLE 3 - You purchase Underinsured Auto coverage limits of 
+$20,000 per person; $40,000 per accident.  Your damages are 
+$20,000.  The other driver's policy provides $10,000 of Bodily 
+Injury liability insurance which you collect from his company.  
+Your Underinsured Auto coverage will pay you $10,000 in full 
+payment of your outstanding damages.  This is the difference 
+between the other driver's Bodily Injury limits and your 
+Underinsured Auto coverage limits. 
+
+       Keep in mind that since all registered motor vehicles 
+must have the compulsory Bodily Injury limits of $10,000 per 
+person; $20,000 per accident, purchasing Underinsured Auto 
+coverage limits of $10,000/$20,000 provides little or no 
+coverage.  If you choose to purchase Underinsurance coverage, 
+you may buy limits that are less than but not higher than the 
+limits purchased under Part 5, however it is recommended that 
+you buy it in limits equal to the limits you purchase under 
+Part 5.  
+
+
+
+                         SAVING MONEY
+
+       Getting the discounts you are entitled to, paying 
+attention to detail and driving conscientiously can all work to 
+keep your insurance costs down.  By following the suggestions 
+listed below, you will maximize the available savings.  
+       
+Be An Alert Shopper
+       Before choosing your coverages, limits and deductibles, 
+read the Massachusetts Automobile Insurance Policy carefully to 
+be certain that you understand the coverages.  Assess your 
+driving habits in order to determine the coverages and limits 
+you need.  When filling out the application, make sure that you 
+complete it accurately in order for your policy to be rated 
+properly.  Finally, when you receive your Coverage Selections 
+Page, do not file it away without checking to see that the 
+coverages, limits, deductibles, discounts and premium are 
+correct.  
+
+Review Your Bill
+       You do not leave the store without a receipt - and you 
+should not buy auto insurance without an itemized bill!
+       First, look at your bill to find out whether any part of 
+the total cost is for service fees.  Although some agents and 
+brokers charge nothing for the additional effort needed to fill 
+out various forms or to bring your license plates from the 
+Registry, others will charge you a fee for performing such 
+services.  However, no agent or broker can charge service fees 
+in connection with issuing or renewing your automobile 
+insurance policy, nor are you legally bound to pay for any 
+other services your agent or broker performs without your 
+consent.  
+       Your itemized bill should tell you whether you have been 
+enrolled in a motor club.  Obviously, if you do not want to 
+join a motor club or if you are already a member of a different 
+motor club, you should not pay the membership dues.   If you do 
+belong to a motor club, check to see if membership includes 
+benefits similar to the Towing/Labor and Substitute 
+Transportation coverages - there is no point in buying 
+duplicate coverage.  
+       Of course, the main thing your insurance bill will tell 
+you is how much you owe.  According to state law, no company, 
+agent or broker can ask you to pay more than 30% of your 
+premium before you renew your coverage (although you may pay 
+more than 30% if you wish).  However, if you have defaulted on 
+a premium payment during the previous twenty-four months, your 
+insurer can legally require payment of 100% of your premium.  
+
+
+
+       Should you choose to pay less than your total bill, it 
+is likely that you will have to pay some kind of finance 
+charge.  Choose your finance plan carefully.  Commercial 
+lenders and insurance premium finance agencies charge up to 18% 
+interest per year on the unpaid balance.  Insurance premium 
+finance agencies may also charge an additional $16 fee for 
+setting up the account. 
+       For many policyholders, another way of making time 
+payments is to do business with an insurance company that will 
+bill you in installments and charge a flat fee for each 
+billing.  These charges vary from company to company and 
+according to the number of installments you want to make.  In 
+some instances the company's carrying charges will cost less 
+than other financing arrangements.  
+
+Discount Opportunities
+       Be particularly careful to answer those application 
+questions relating to the following five discounts, which can 
+cut your insurance costs considerably if you qualify for them.  
+       * Low Mileage Discount -  If you drive 5,000 or fewer 
+miles per year, you are eligible for the maximum 10% discount.  
+If you drive between 5,001 and 7,500 miles per year, you are 
+eligible for a 5% discount. The discount applies to all 
+coverages except Comprehensive, Substitute Transportation and 
+Towing and Labor, and applies to the rate for each insured car 
+as otherwise determined by territory, driver class, vehicle 
+model year and symbol, prior to the application of SDIP 
+surcharges or credits. 
+       * Senior Citizen Discount - Drivers 65 years or older 
+who are principal operators of their cars receive a 25% 
+reduction on all their auto coverages, provided there is no 
+inexperienced driver (one with less than six years of driving 
+experience) listed on their policies.  Cars used for business 
+are not eligible.  The 25% discount does not apply to SDIP 
+Surcharge Points. 
+       * Public Transportation Discount - Choosing to take 
+public transportation instead of using your automobile can save 
+you 10% on your property damage liability and collision 
+coverages.  The maximum discount is $75.  To obtain this 
+discount, you must show evidence of purchase of 11 months of 
+commuter passes or tickets from a qualified transit system.
+       * Anti-Theft and Recovery System Discounts- 
+Policyholders who install certain kinds of anti-theft devices 
+are eligible for a 5%, 15%, or 20% discount on Comprehensive 
+coverages.  The installation of a signal-activated vehicle 
+recovery system, in combination with an approved anti-theft 
+device, can qualify you for a savings between 25%-35%.  The 
+size of the discount varies, depending on the kind of 
+anti-theft device, and whether it is combined with a vehicle 
+recovery system.  
+
+
+
+       You should seriously consider buying and using some kind 
+of anti-theft device and/or vehicle recovery system.  Before 
+you choose a particular brand or model, check with your agent, 
+broker or company representative about the discount.  A quick 
+check before you buy can help you avoid an expensive 
+misunderstanding later.  
+       * Multi-Vehicle Discount - Individuals and married 
+couples who own more than one car and insure them for Collision 
+or Limited Collision coverage with the same company can get a 
+5% discount on these coverages.  This discount is available 
+only to experienced drivers. 
+
+       Inexperienced drivers can realize a 10% savings on three 
+of the four compulsory coverages and on optional liability and 
+collision coverages, if they complete an approved 
+driver-training course.  The savings is calculated into the 
+rates for the particular driver classifications.
+       Finally, you can affect the cost of your policy by how 
+you and the other operators of your auto drive.  You will 
+receive Credit Points on your policy if you and the other 
+operators maintain good driving records.  More detailed 
+information about the Safe Driver Insurance Plan can be found 
+in Part 4 of this guide. 
+       
+
+
+              THE 1990 SAFE DRIVER INSURANCE PLAN
+
+       If you and the other drivers listed on your policy have 
+incident-free driving history records, then your insurance 
+premium for Bodily Injury to Others (Part l), Personal Injury 
+Protection (Part 2), Damage to Someone Else's Property (Part 4) 
+and Collision (Part 7) coverages will be reduced by the 
+application of Credit Points, helping to lower your total 
+automobile insurance bill.  If you or any other driver listed 
+on your policy caused an accident or violated any surchargeable 
+motor vehicle traffic law, your insurance premium for Parts 1, 
+2, 4, and 7 will increase due to the application of Surcharge 
+Points.
+       The 1990 Safe Driver Insurance Plan 211 CMR 125.00 is 
+published in accordance with the authority granted to the 
+Commissioner of Insurance under Massachusetts General Laws 
+Chapter 175 Section 113B.
+
+HIGHLIGHTS OF THE 1990 SAFE DRIVER INSURANCE PLAN
+       * All operators on a policy will be assigned an SDIP
+       Step. 
+       * Six years of driving history will be used to rate your 
+       policy. 
+       * An SDIP Step is determined by adding Surcharge Points
+       for surchargeable incidents within the policy Experience 
+       Period to a starting step value of 15 and subtracting 
+       Credit Points for each year of incident-free driving 
+       within the policy Experience Period for which the 
+       operator was licensed to drive in Massachusetts. 
+       * Operators will receive one Credit Point for each year
+       of incident-free driving for which they were licensed to 
+       drive in Massachusetts.
+       * Surcharge Points for Surchargeable Incidents have 
+       increased.
+       * Aging of incidents has been eliminated.
+
+SAFE DRIVER INSURANCE PLAN (SDIP) STEPS
+       The 1990 Safe Driver Insurance Plan assigns an SDIP Step 
+to each operator listed on a policy.  For policy year 1990 the 
+SDIP Step range is from 09 to 35.  SDIP Step 09 is the Best 
+Credit Step for 1990.
+       All operators enter the step system at Step 15, the 
+neutral step - no increase or decrease in automobile insurance 
+premium.  Each operator's SDIP Step is computed by adding to 
+the starting step value of 15, Surcharge Points for 
+surchargeable incidents within the policy Experience Period, 
+and then subtracting Credit Points earned by the operator for 
+each incident-free year within the policy Experience Period or 
+special Credit Points for the Clean Slate Rule.
+
+
+
+       This equation will help you determine your operator SDIP 
+Step:
+                     STARTING STEP  15
+                   + SURCHARGE POINTS
+                   - CREDIT POINTS
+                   ----------------------
+                   = OPERATOR'S SDIP STEP
+
+EXPERIENCE PERIOD
+       The Experience Period of a 1990 policy is the 6 year 
+period immediately preceding the policy effective date.  The 
+Experience Period is expected to increase each year by 1 year 
+up to 15 years.  For example, the Experience Period of a policy 
+in 1991 is expected to be 7 years.
+
+CREDIT POINTS
+       One Credit Point is subtracted from the starting step of 
+15 for each incident-free year of driving during the policy 
+Experience Period.  An incident free year of driving is any of 
+the 1-year periods immediately preceding the policy effective 
+date for which the operator has been licensed to drive in 
+Massachusetts and during which the operator has not had a 
+surchargeable at-fault accident or motor vehicle traffic 
+violation.
+       EXAMPLE: If you have been licensed to drive in 
+Massachusetts for 10 years, there are no surchargeable 
+incidents on your driving history record and your policy 
+effective date is 01/01/90, you will be placed at SDIP Step 09, 
+the Best Credit, for 1990.  To compute this yourself, first 
+determine either the date you obtained your Massachusetts 
+driver's license or the beginning date of your policy 
+Experience Period (preceding 6 years), whichever is later.  In 
+this example, 01/01/84, the beginning date of the policy 
+Experience Period, is later.  Next, subtract 6 Credit Points - 
+1 point for each incident-free year within the Experience 
+Period - from the neutral step 15.  The resulting number is 
+your operator SDIP Step.
+
+       STARTING STEP       01/01/84          15
+       CREDIT POINTS                       - 06
+                                            -----
+       OPERATOR SDIP STEP                  = 09
+
+       Operators with less than 6 years of driving experience 
+will receive Credit Points for only those incident-free years 
+for which they were licensed to drive in Massachusetts.  
+       Operators licensed to drive in Massachusetts for less 
+than 1 year will be placed at SDIP Step 15, the neutral step.
+
+SURCHARGEABLE INCIDENTS AND SURCHARGE POINTS
+       At-Fault Accidents - If you are involved in an accident 
+and you file a Collision claim, or if another person 
+
+
+files a claim under Damage To Someone Else's Property, your 
+insurance company must determine who was more than 50% 
+at-fault.  It makes no difference whether the at-fault accident 
+occurred within the Commonwealth or out-of-state.  
+       There are two types of at-fault accidents.  A Minor 
+At-Fault Accident is a claim payment under Damage to Someone 
+Else's Property, Collision or Limited Collision coverage of 
+more than $200 but not more than $1,500 and a Major At-Fault 
+Accident is a claim payment under Damage to Someone Else's 
+Property, Collision or Limited Collision coverage of more than 
+$1,500.
+       If your company finds that you were at-fault and pays a 
+claim of more than $200, the at-fault accident will be added to 
+your operator's driving history record and your company will 
+send you a Surcharge Notice.  The Surcharge Date for an 
+at-fault accident is the Date of Notice entered by your insurer 
+on the Surcharge Notice form.  The accident will become part of 
+your driving history record unless the company withdraws the 
+Surcharge Notice or you successfully appeal the notice to the 
+Board of Appeal.   
+
+       Appealing At-Fault Accidents- Accident surcharges must 
+be appealed at the time you receive the Surcharge Notice from 
+your insurance company.  Detailed instructions for filing an 
+appeal are on the Surcharge Notice.  The Board of Appeal on 
+Motor Vehicle Liability Policies and Bonds will hold the 
+hearing and will notify you, your company and the Merit Rating 
+Board of its decision.  If the Board determines that you were 
+not more than 50% at-fault in the accident, the Merit Rating 
+Board will remove the incident from your driving history record.
+       If your premium is increased due to Surcharge Points for 
+an at-fault accident while your appeal is pending, you must pay 
+the additional premium or your policy will be cancelled.  Your 
+policy will be re-rated by your insurance company if you win 
+your appeal.  
+       If you have any questions concerning an appeal of a 
+Surcharge Notice, contact the Board of Appeal at (617) 
+727-7189, extension #223.
+
+       Motor Vehicle Traffic Law Violations - If you are 
+convicted of, or make payments for, violating certain motor 
+vehicle traffic laws, or are assigned to an alcohol education 
+program, the court will notify the Merit Rating Board.  The 
+motor vehicle traffic law violation will be added to your 
+driving history record.  The court judgment date is the 
+Surcharge Date for a motor vehicle traffic law violation.
+       Surcharge Points are not assigned to a non-criminal 
+minor motor vehicle traffic law violation if it is the first 
+motor vehicle traffic law violation in the operator's policy 
+
+
+Experience Period.  No Surcharge Points are assessed for the 
+incident but no Credit Points are calculated for the year in 
+which the surcharge date is recorded, since the operator does 
+not have an incident-free year.
+       A list of all surchargeable Motor Vehicle Traffic Law 
+Violations can be obtained from the Merit Rating Board.
+
+       Out of-State Violations - Convictions of Motor Vehicle 
+Traffic Laws outside the Commonwealth that are reported to the 
+Registry of Motor Vehicles will be added to the operator's 
+driving history record and will be subject to Surcharge Points.
+
+       Surcharge Points - The number of Surcharge Points 
+assigned to each surchargeable incident is determined by the 
+type of incident:
+
+       Minor Traffic Law Violation      2 Surcharge Points
+       Minor At-Fault Accident          3 Surcharge Points
+       Major At-Fault Accident          4 Surcharge Points
+       Major Traffic Law Violation      5 Surcharge Points
+
+       EXAMPLE: If you have been licensed to drive in 
+Massachusetts for 8 years; you have 2 Minor Traffic Law 
+Violations and 1 Minor At-Fault Accident on your driving 
+history record and your policy effective date is 01/01/90, then 
+your SDIP Step will be 17. 
+
+STARTING STEP               01/01/84                         15
+                         Incident Date       Surcharge Date 
+SPEEDING                    12/01/84          12/22/84       00
+MINOR AT-FAULT ACCIDENT     07/17/87          08/18/87       03
+SPEEDING                    04/24/88          05/02/88       02
+CREDIT POINTS (incident-free years 1985, 1986 and 1989)    - 03
+                                                            ----
+OPERATOR SDIP STEP                                         = 17
+
+COMPREHENSIVE CLAIMS
+       Your insurance company is required to notify the Merit 
+Rating Board when a Comprehensive claim has been paid.  
+Comprehensive claims are added to the policyholder's driving 
+history record.  In future years the Comprehensive coverage on 
+your private passenger automobile insurance policy may be 
+subject to Surcharge Points if you submit four or more 
+Comprehensive claims on or after January 1, 1984, totaling 
+$2,000 or more.  
+       Surcharge Points for Comprehensive claims will not be 
+applied for policies effective in 1990.
+
+
+
+
+ASSIGNMENT OF OPERATOR SDIP STEPS TO VEHICLES LISTED ON A POLICY
+       After each operator listed on your policy is assigned an 
+SDIP Step, the operators are assigned to the vehicles listed on 
+the policy.  The listed operator with the highest Step is 
+assigned to the vehicle with the highest combined premium for 
+Parts 1, 2, 4, and 7.  For each subsequent vehicle, the listed 
+operator with the next highest Step is assigned to the vehicle 
+with the next highest combined premium until all the vehicles 
+have been exhausted.  An operator's SDIP Step greater than SDIP 
+Step 15 can not be billed on more than one policy in effect at 
+the same time.  
+       When there are more vehicles than operators listed on a 
+policy, the excess vehicles are assigned the step of the 
+operator with the lowest Step unless such operator's Step is 
+above SDIP Step 15.  In such case, the excess vehicles are 
+assigned SDIP Step 15. 
+
+EXAMPLE: A policy lists four (4) vehicles and three (3) 
+operators:  Operator A's SDIP Step is 20, Operator B's SDIP 
+Step is 15 and Operator C's SDIP Step is 09.
+
+       Vehicles                Operators
+       1                       A. SDIP Step 20
+       2                       B. SDIP Step 15
+       3                       C. SDIP Step 09
+       4                       C. SDIP Step 09
+
+APPLICATION OF PREMIUM ADJUSTMENTS TO COVERAGES
+       An operator's SDIP Step determines how much of an 
+adjustment will be made to the policy premium.  SDIP Steps 09 
+(Best Credit) to 14 are Credit Steps.  For each step below 15 
+the operator's premium will be adjusted downwards.  Step 15 is 
+the neutral step, which means the operator is neither in credit 
+nor surcharge status, and will not receive a reduction or an 
+increase in premium.  Step 16 through 35 are Surcharge Steps.  
+For each step above 15 the operator's premium will be adjusted 
+upwards.  If you wish to calculate the actual amount of your 
+credit or surcharge, refer to "Calculation of SDIP Credits and 
+Surcharges" at the end of this section.
+
+       Liability Premium- Each step represents a 7% change in 
+the following liability coverages:
+       Part l:       Bodily Injury to Others
+       Part 2:       Personal Injury Protection
+       Part 4:       Damage to Someone Else's Property (PDL)
+
+       Collision Premium- Each step represents a 5% change in 
+Collision Coverage:
+       Part 7:       Collision
+
+
+
+
+       Example: If you have been licensed to drive in 
+Massachusetts for six years; you have no incidents on your 
+6-year driving history record; your SDIP Step is 09; and you 
+have Liability and Collision coverages on your policy, then you 
+will receive a 42% (7% X 6 steps) reduction on your Liability 
+coverages and a 30% (5% X 6 steps) reduction on your Collision 
+coverage.
+
+CLEAN SLATE RULES
+       The Safe Driver Insurance Plan provides incentives to 
+operator's who have incidents on their record in the early 
+years of the Experience Period, but in subsequent years have 
+maintained clean driving history records.
+
+       Transitional Clean Slate Rule- In order to ensure a fair 
+and equitable transition from the 1989 Safe Driver Insurance 
+Plan, the 1990 Safe Driver Insurance Plan includes a Clean 
+Slate Rule.  For 1990, a 3-Year Clean Slate Rule will place an 
+operator in a credit step if that operator would have been in 
+credit status under the 1989 SDIP. 
+       If the operator's SDIP Step is greater than 15, the 
+operator's SDIP Step will be set at 14 if all of the following 
+conditions for the Clean Slate Rule are met:
+
+Three (3) Year Clean Slate Rule applies to an operator on a 
+1990 policy if:
+a.     the operator has a three year period of incident free 
+       driving within the policy Experience Period;
+b.     the three year period occurs after 1/1/87 and before 
+       12/31/90;
+c.     the operator had a valid Massachusetts driver license 
+       for the entire three year incident-free period; and
+d.     the operator's SDIP step at the end of the incident-free 
+       period would be greater than 14.  Then the operator's 
+       SDIP step is set to 14.
+Points for surchargeable incidents within the policy Experience 
+Period which have surcharge dates that are recorded after this 
+3-year incident free period are added to operator SDIP Step 14. 
+
+       Clean Slate Incentive- As an incentive to promote safe 
+driving, a Five (5) Year Clean Slate provision has been added 
+for policies effective after 1991.  If an operator maintains 
+five consecutive years of incident-free driving within the 
+policy Experience Period, and the operator's SDIP Step is 
+greater than 15, then the operator's SDIP Step will be set at 
+15.  The operator must have a valid Massachusetts driver's 
+license for the entire five year incident free period. 
+SAFE DRIVER INSURANCE PLAN (SDIP) STATEMENT
+       Your insurance company is required to send you a Safe 
+Driver Insurance Plan (SDIP) Statement if you or any operator 
+listed on your policy are not assigned Operator Step 09, the 
+Best Credit for 1990.
+
+REFUSAL TO PAY A PREMIUM INCREASE
+       If you refuse to pay your premium increase due to 
+Surcharge Points, your insurance company will cancel your 
+policy after sending you the Notice of Cancellation required by 
+law.
+
+RECORD ERROR OR BILLING PROBLEMS
+       If you believe a billing is erroneous, you should first 
+contact your insurance agent, broker or company.  Make sure you 
+have all necessary information on hand, including your Coverage 
+Selections Page, Safe Driver Insurance Plan (SDIP) Statement 
+and copies of your billings.
+       If you question the accuracy of your driving history 
+record as shown on your Safe Driver Insurance Plan (SDIP) 
+Statement call or write the Merit Rating Board's Insurance 
+Company Services Section, 100 Nashua Street, 6th Floor, Boston, 
+MA 02114, (617) 727-7017.  You must pay a billed premium while 
+the matter is under investigation or your insurance company 
+will cancel your policy.  If an error is discovered, it will be 
+corrected and all parties will be notified in writing.  If you 
+were erroneously billed your insurance company will re-rate 
+your policy.
+
+OBTAINING A COPY OF YOUR OPERATOR DRIVING HISTORY RECORD
+       You may obtain a copy of your operator driving history 
+record from the Merit Rating Board.  This detailed record will 
+show six years of your active surchargeable incidents on file 
+at the Merit Rating Board.  The cost is $3.00.  DO NOT MAIL 
+CASH.  Make check or money order payable to the Commonwealth of 
+Massachusetts.
+       No fee is required to inspect your computer record at 
+the Merit Rating Board's office.  However, a prior appointment 
+must be made with the Board's Insurance Company Service Section.
+CALCULATION OF SDIP CREDITS AND SURCHARGES
+       Your total policy credit or surcharge is determined by 
+multiplying the coverage premium shown on your Coverage 
+Selections Page by the factor which corresponds to your SDIP 
+Step (see below), and then adding the products for all four 
+coverages.  Subtract this number from your total premium if you 
+are determining a credit. Add this number to your total premium 
+if you are determining a surcharge. 
+================================================================
+                        SURCHARGE FACTORS
+  Step         Part 1         Part 2         Part 4      Part 7
+  Number       BI to Others    PIP           Property    Collision
+                                             Damage
+------         ---------       -------       --------    -------
+
+         35    1.40            1.40          1.40        1.00
+         34    1.33            1.33          1.33        0.95
+         33    1.26            1.26          1.26        0.90
+         32    1.19            1.19          1.19        0.85
+         31    1.12            1.12          1.12        0.85
+         30    1.05            1.05          1.05        0.75
+         29    0.98            0.98          0.98        0.70
+         28    0.91            0.91          0.91        0.65
+         27    0.84            0.84          0.84        0.60
+         26    0.77            0.77          0.77        0.55
+         25    0.70            0.70          0.70        0.50
+         24    0.63            0.63          0.63        0.45
+         23    0.56            0.56          0.56        0.40
+         22    0.49            0.49          0.49        0.35
+         21    0.42            0.42          0.42        0.30
+         20    0.35            0.35          0.35        0.25
+         19    0.28            0.28          0.28        0.20
+         18    0.21            0.21          0.21        0.15
+         17    0.14            0.14          0.14        0.10
+         16    0.07            0.07          0.07        0.05
+=================================================================
+                  NO CREDIT/NO SURCHARGE FACTORS
+Step
+Number   Part 1                Part 2        Part 4      Part 7
+------         -------        ------         ------      ------
+         15    0.000           0.000         0.000       0.000
+=================================================================
+                        SURCHARGE FACTORS
+Step
+Number         Part 1          Part 2        Part 4      Part 7
+------         ---------       -------       ------      ------
+         14    0.07            0.07          0.07        0.05
+         13    0.14            0.14          0.14        0.10
+         12    0.21            0.21          0.21        0.15
+         11    0.28            0.28          0.28        0.20
+BEST     10    0.35            0.35          0.35        0.25
+CREDIT=  09    0.42            0.42          0.42        0.30
+================================================================
+
+
+The Division would like to thank the Merit Rating Board for its 
+preparation of this section of the guide.
+
+
+                       FILING A COMPLAINT
+
+       If you believe that your insurance company has acted 
+improperly in issuing, renewing or cancelling your automobile 
+insurance policy, or has refused to pay all or part of a fair 
+claim, or your agent, broker or company has misrepresented you, 
+you have the right to file a complaint and seek a resolution.  
+       The problem may be due to a simple error, and may be 
+corrected with an inquiry over the telephone.  Contact your 
+agent, broker or company representative.  Make sure you have all 
+necessary information on hand, such as the policy or account 
+number, a clear and concise description of the problem and any 
+other important information.
+       If you do not receive a prompt, satisfactory response, 
+write a letter to the company briefly explaining your problem and 
+what you expect to be done to correct it.  It may be a good idea 
+to send the letter by registered mail to guarantee that the 
+company receives it.  
+       If you still feel you have been treated unfairly, send a 
+complaint letter to the Division of Insurance, and we will assist 
+you in resolving your problem.  Be sure to include your name, 
+address, and phone number; the name of the agent, broker or 
+insurance company; the policy number; and a brief description of 
+the problem.  Make sure you keep a copy of the letter and any 
+other documents you include with the letter, for your own 
+records.  Keep all letters, receipts, bills and policies together 
+for easy reference.  The Division of Insurance has Consumer 
+Service offices located at:
+
+       280 Friend Street      436 Dwight Street, Rm. 438
+       Boston, MA 02114       Springfield, MA  01103
+       (617) 727-3333         (413) 784-1190
+
+       We will make every effort to ensure that your valid 
+complaint is resolved in a satisfactory manner, by investigating 
+the problem, clarifying misunderstandings and making sure you get 
+clear responses to your questions.  We cannot however, guarantee 
+a favorable action on your complaint if it is not supported by 
+facts or the law, nor can we provide legal services that may be 
+required to settle a more complicated complaint. 
+
+                           RUBY'S PEARLS  
+                           INTRODUCTION  
+  
+         This brief collection of short stories is electronically
+    published by David and Del Freeman, with the invaluable aid of
+    our Assistant Editor, Michael Hahn, for your reading pleasure. 
+    The entire contents of each issue are copyrighted as a body, 
+    and each individual story is independently copyrighted. Nothing 
+    herein may be reproduced in forms other than electronic, nor 
+    can any portion be extricated and reproduced. The whole may be 
+    reproduced electronically so long as it is kept intact, and is 
+    not reproduced in any form other than not-for-profit.  
+         Ruby's is dedicated to fiction short stories, and may  
+    frequently contain satirical spoofs, meant to amuse and  
+    entertain. No offense is intended to any individual, group or
+    organization, and the broad spectrum of characterization is 
+    intended to be so outlandish as to obviously establish its  
+    humorous intent. Any resemblance to people, places or  
+    associations, living or dead, active or defunct, is purely  
+    coincidental.  
+        Ruby's Pearls' ISSN NO. is 1079-6673. Its Serials
+    Directory International Reference Book Control No. is
+    A0019982.
+Isn't it annoying when boards add these damn files to the zips? Well, don't
+worry. This is Guido Sanchez, from the BLaH file you are about to delete, and
+I was just pointing that out. Some boards, like Gramcracker in 708/312, make
+entire fucking DIRECTORIES in the zipfile. Annoying ones with lotsa alt-255s.
+And that fucking annoying ţ. Is that the size of their asshole or their brain?
+Well, in either case, I'd like to find out so I can skewer them using the
+proper utensils. I mean, it would be a shame to want to give someone an iron
+colonic, and you find out their asshole is bigger than you thought. And me
+without my spoon. 
+              Gweed.
+
+Oh yah, and call Nun-Beaters Anonymous, 708,251,5094.
+

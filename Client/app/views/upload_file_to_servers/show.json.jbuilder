@@ -1,0 +1,1 @@
+json.partial! "upload_file_to_servers/upload_file_to_server", upload_file_to_server: @upload_file_to_server

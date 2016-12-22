@@ -1,0 +1,61 @@
+Raza Hussain Email: shussain11@student.gsu.edu
+141 Piedmont Ave NE, https://linkedin.com/in/razah
+Atlanta, GA, United States 30303 https://github.com/raza15
+Phone: (470) 343-8296 http://stackoverflow.com/users/5093840/raza
+EDUCATION
+• Georgia State University Atlanta, United States
+Ph.D. Computer Science Aug 2016 - May 2020
+• LUMS Lahore, Pakistan
+B.S. Computer Science Aug 2012 - May 2016
+Relevant Courses:
+• Graduate Database Systems • Graduate Data Security • Parallel and Distributed Computing
+• Advanced Programming in Java • Data Mining • Software Engineering • Analyses of Algorithms
+• Artificial Intelligence • Operating Systems • Computer Networks • Data Structures in C++
+TECHNICAL SKILLS
+• Languages: Java, Python, C, C++, Ruby, Clojure, Bash, Javascript, MySQL, MongoDB, MATLAB,
+HTML, CSS. Web Frameworks: NodeJS, Ruby on Rails.
+• Unix, Big Data Analytics, Networking, Object-Oriented/Functional/Asynchronous Programming
+EMPLOYMENT
+• Research Assistant Oct 2016 - Present
+Georgia State University Atlanta
+, United States
+– Research Areas: Big Data Analytics, Data Mining, Machine learning, Distributed Systems.
+• Teaching Assistant Aug 2015 - Dec 2015
+Course: Databases(CS-340) LUMS, Lahore, Pakistan
+PROJECT EXPERIENCE
+• Distributed file storage Web Application: Used Ruby on Rails web framework. A distributed join
+algorithm implemented at backend.
+• Real-Time Web Application using NodeJS, Javascript, and, socketio: Users play a tick-tack-toe
+game with each other in real-time. Project uploaded on GitHub:
+https://github.com/raza15/NodeJS-TicTacToe-multigame
+• Web Application using NodeJS, Javascript, and, MongoDB: It was an exam sharing web
+application. Prominent Features: Professors can add questions to a common test bank, share their exams
+with specific other users, suggestions in a dropdown menu while searching questions in the test bank.
+Project uploaded on GitHub: https://github.com/raza15/ExamSharingNodeJS
+• RESTful SaaS Web Application using Ruby on Rails, and, MySQL: Allows instructors and
+students to
+ manage their courses, instructors add courses, students enroll, instructors post content for a
+course as he/she pleases. Plus, there’s a common discussion forum provided where students and instructors
+chat. Project uploaded at GitHub: https://github.com/hamza121star/Software-Engineering-Project
+• Reverse Engineering Android Applications: Figured out a way to decompile and reuse source code of
+existing android applications. After this, decompiled various existing android applications, made changes
+to their code and data files, recompiled them and tested them on an android device. Tools used: apk tool,
+zipalign, signapk. Project uploaded on GitHub:
+https://github.com/raza15/Reverse-Engineering-Android-Applications
+• Design and Implementation of Scalable and Fault-tolerant Distributed Password Cracking
+System: The goal of the project was to create a system that utilizes multiple computing nodes to
+efficiently distribute the workload. The system was fault tolerant as it continued to function if any node
+fa
+iled, by redistributing the workload and by recovering to its previous stable state if all the nodes or the
+central server crashed.
+• Implementation of a Data Mining Supervised Learning Algorithm: A Data Mining project of
+training an algorithm to detect positive and negative tweets. Scrapped(using Twitter API) and used data
+relating to US Presidential Elections 2012 for training and testing the model.
+• Android Runtime vs. Dalvik VM: Performed a performance comparison of Android Runtime(ART)
+and Dalvik VM running on android devices.
+• Exploration and Measurement of fraudulent reputation manipulation on Facebook: It was a
+measurement study of web services that were exploiting a vulnerability in existing Facebook applications to
+provide on-demand reputation enhancement on Facebook content. I found more than 1 million Facebook
+users associated with these services by writing web crawlers in python.
+• Design and implementation of a Distributed Data Mining Clustering Algorithm: K-Means
+algorithm on GPU nodes.

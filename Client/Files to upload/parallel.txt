@@ -1,0 +1,20 @@
+In this project, I have implemented a serial and a parallel version of a popular data clustering algorithm: K-Means Clustering. Both algorithms are implemented in C++. For the parallel version, I have used the Message Passing Interface (MPI) as the programming paradigm and for its implementation, I have used the MPI library in C++.
+K-Means Clustering:
+Given a dataset, D, of n objects, and k, the number of clusters to form, the k-means algorithm organizes the objects into k partitions (where k ≤ n), and where each partition represents a cluster. The clusters are formed to optimize an objective partitioning criterion, such as a dissimilarity function based on distance, so that the objects within a cluster are “similar” to one another and “dissimilar” to objects in other clusters in terms of the data set attributes.
+Each data object has a certain number of attributes. The attribute values are integers and the “similarity” between 2 data objects = the Euclidean distance between the 2 data objects.
+Serial Algorithm:
+Diagrammatic Representation of the progression of algorithm in an iterative manner is shown below. “Dots” represents data objects. “+” represents the cluster means.
+    
+ Parallel Algorithm:
+At the beginning of the algorithm, each processor holds a portion of the Dataset “D”. If the total number of data objects in “D” is “n”, and the total number of processors is “p”, then each processor receives “n/p” data objects. That means the computation time is reduced by a factor of “p”.
+1. Root (process with rank=0) calculates the initial means of the “k” centroid vectors.
+2. Root Broadcasts these “k” vectors to all the processors.
+3. Each process computes distance of each local document vector to “k” centroid vectors.
+(Please note size of 1 centroid vector is equal to the number of attributes in a data object.)
+4. Each process then re-computes the local “k” centroid vectors based on the re-assigned
+objects.
+5. Each process then does an All-to-All reduction of the “k” centroid vectors. Thus, after each
+iteration, an all-to-all reduction synchronizes the “k” centroid vectors across all processors.
+6. The algorithm is terminated when there is no change in the values of all the “k” centroid
+vectors in 2 consecutive iterations.
+Code: Both serial and parallel versions of code are submitted to the Dropbox. Filename of submitted code: “k-means.zip”.

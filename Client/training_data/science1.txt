@@ -1,0 +1,84 @@
+﻿ What should be our motivation behind athletic activity? 
+
+It is generally assumed that people who participate in sport can be divided into two categories: One consisting of those who engage in sports either motivated by the excitement involved in preferably successful competition; and in the case of professionals, driven by the economic rewards following it, and one much more numerous group consisting of the less serious exercisers for whom the ultimate goal is not the attainment of high athletic abilities, their aim is merely to maintain a modicum of physical fitness for preserving bodily health or relieve stress. 
+        There are sound reasons why one might say that both categories actually fail to optimally reap the potential rewards of regular athletic training. 
+        The people in the first group have a very serious approach, and in most cases they consequently show a high degree of development of their athletic potential. However, a most important negative aspect regarding competitive athletics on the definite upper level is that the motivation of the participants tends to depend on competitive ability, hence all their activity will seem to have no reason if and when their measurable results do not meet the standards defined by levels only attainable for people in the physical prime of their lives. As a result of this rather short-sighted approach, a majority of competitive sportsmen and sportswomen cease to train regularly when the results begin to decline. Then they lose their abilities and gradually are reduced to the average level of the untrained. Seen in a broad perspective, all their efforts have ultimately been wasted. It may therefore be argued that any motivation rooted in the isolated aim to participate in competitions on the highest level is bound to fade away over time, soon to be replaced with absence of any motivation and a concomitant athletic inactivity. One more fact to consider here is that the very extensive preparation required for top-level competition more often than not involves 3 hours or more with training every day. Everybody agrees that this is not permanently practicable. Luckily, it is perfectly possible to maintain an athletic ability immeasurably higher than the untrained level with, as an example, about sixty to seventy minutes five times a week, and some more on Sundays, a total amount of activity which falls in the region of 7-9 hours a week. 
+        People belonging to the second group admittedly have a potentially permanent objective. However, this advantage is largely offset by the deplorable fact that those who solely train for the maintenance of physical health very seldom develop in themselves anything near high abilities. In reality, in most cases they possess a limited athletic level on or near the average level of "normal," untrained people. Typically those less serious keep-fit-exercisers train no more than three times a week, and in a great many cases, even less. Such a level of activity represents the recommendable starting level for people who have not trained before. Later on, a higher frequency and not least regularity is imperatively necessary in order to develop the eminently capable body which ought to be the obligatory companion to a similarly developed and capable mind. Unfortunately, the situation is that these exercisers tend to unnecessarily continue to limit their training to the aforementioned level. This because of the widespread idea that all you need to be "in shape" is this modest activity. It is basically a question of values. When a given milieu or society does not value a particular ability, those who want to develop and possess it are frequently accused of overdoing, and also of selfishness, because devoting time to an "unworthy" activity is by definition a revelation of selfishness. This approach has long ago been irrefutably contradicted by scientific evidence, in addition to the even more significant living proof provided by large numbers of athletes who with themselves show all humanity what you and I can really do, as long as we preserve the undying desire to eliminate and transcend our present limitations, and that the rewards from breaking out of the adaptive limits of the untrained are truly immense. 
+
+What, then, is it all about? I would like to formulate it this way: Our obligation is all our lives to strive to encourage and assist the continuing physical, mental, and spiritual development of not only ourselves as individuals, but of the whole brotherhood of humanity. 
+
+Per Inge Oestmoen, Norway. 
+
+
+
+                 THE CIRCUMSTANCES OF MINOR PLANET DISCOVERY
+
+                             Frederick Pilcher
+                             Illinois College
+                        Jacksonville, IL 62650 USA
+
+     This file of minor planet discovery data has been prepared in machine
+readable form for NSSDC and in hardcopy for ASTEROIDS II, (1988), ed. R. P.
+Binzel, T. Gehrels, and M. S. Mathews (Tucson: Universiy of Arizona Press).
+The machine readable list contains complete data for all numbered minor planets.
+The hard copy contains complete data only for planets 2125 and forward, and
+notes pertaining to these planets.  Those for the preceding planets were listed
+by the writer in ASTEROIDS, (1979), ed. T. Gehrels (Tucson: University of
+Arizona Press), pp 1130-1154.  A few mistakes in the first book have since been
+found and corrected in the machine readable version, and the reader will note
+small changes in the numbering of some of the NOTES.  Diacritical marks for the
+names of planets, increasingly omitted from machine readable lists, have been
+added by hand to the hardcopy.
+
+     The first column, 4 characters, contains the permanent number; the second,
+l6 characters, the official name; the third, for planets 330 and forward, the
+provisional designation attached to the discovery apparition; the fourth, the
+year, month, and day of discovery according to criteria explained below; the
+fifth, the name of the discoverer, discoverers, or institution of discovery;
+the sixth, the discovery place. The seventh column is used when needed for
+notes referencing two or more discoverers with names of combined length too
+great to fit in the discoverer column, to give a more complete description of
+programs involving several persons, and to reference cases in which two
+numbered planets were subsequently discovered to be identical and the number
+and name of one of these was reassigned to a newly-discovered planet.  Notes
+have also been used to reference conflicting discovery claims and list
+important independent discoveries which are no longer regarded as official.
+
+     The discovery date is in local mean time prior to 1 January 1925, and
+in UT thereafter, and refers to the time of mid-exposure for planets discovered
+by photographic means.  In many cases the permanent number was assigned only
+when several unnumbered planets observed in different years were found to be
+identical, often many years after the discovery photographs were made.  In
+these cases the discovery date is the first of that series of photographic
+observations from which the preliminary orbit was computed, and the provi-
+sional designation is that associated with this particular set of observations.
+Often earlier observations exist, but they are considered prediscoveries.
+In some cases the discovery and subsequent observations permitted images to be
+found on photographs obtained at the same observatory earlier in the discovery
+apparition; these earlier observations are considered prediscoveries.
+
+     The following literature has been examined comprehensively to determine
+the discovery data:
+
+     STRACKE, G., Identifizierungsnachweis der Kleinen Planeten (Berlin, 1938).
+     HERGET, P., Names of Minor Planets (University of Cincinnati Observatory,
+        1957, 1967).
+     Astronomische Nachrichten.
+     Astronomische Nachrichten Indices.
+     Monthly Notices of the Royal Astronomical Society.
+     Rechen-Institut Circulars.
+     Beobachtungs Zircular.
+     Minor Planet Circulars.
+     Lick Research Surveys on Minor Planets.
+     Turku Informo.
+
+Acknowledgments.  The authors wish to thank the following people for valuable
+contributions to this work.  B. Marsden has arduously searched the literature,
+resolved various errors and discrepancies, and has passed judgment on con-
+flicting discovery claims.  J. Meeus and M. Combes have prepared an earlier
+list of discovery data from which the present list was adapted and expanded,
+and J. Meeus has provided a complete list of diacritical marks of names of
+minor planets.  K. Kelly and J. LoGuirato have proofread the material, and
+provided coninuing advice and counsel.
+
+

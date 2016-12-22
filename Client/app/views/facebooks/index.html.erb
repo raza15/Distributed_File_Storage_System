@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Facebooks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>Fbemail</th>
+      <th>Fbpass</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @facebooks.each do |facebook| %>
+      <tr>
+        <td><%= facebook.email %></td>
+        <td><%= facebook.fbemail %></td>
+        <td><%= facebook.fbpass %></td>
+        <td><%= link_to 'Show', facebook %></td>
+        <td><%= link_to 'Edit', edit_facebook_path(facebook) %></td>
+        <td><%= link_to 'Destroy', facebook, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Facebook', new_facebook_path %>

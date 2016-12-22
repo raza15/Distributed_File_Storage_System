@@ -1,0 +1,483 @@
+Let e = 1896837 = (111001111000110000101)2, and let l = 3. Beginning with the least-significant binary digit, e is decomposed as follows:
+e = 111 001 111 00 011 0000 101. The choice l = 4 leads to the following decomposition of e:
+e = 111 00 1111 0 0011 000 0101.
+The 2k-ary exponentiation considered above yields, for example for k = 2,
+the following decomposition:
+e = 01 11 00 11 11 00 01 10 00 01 01.
+The window decomposition of e for l = 3 contains five 1-windows, while that for l = 4 has only four, and for each the same number of additional multiplications is required. On the other hand, the 22-ary decomposition of e contains eight 1-windows, requires double the number of additional multiplications compared to the case l = 4, and is thus significantly less favorable.
+• The same procedure, but beginning with the most-significant binary digit, yields for l = 4 and e = 123 the decomposition
+e = 1110 0 1111 000 1100 00 101,
+likewise with four 1-windows, which, as already established above, are not
+all odd.
+Finally, then, exponentiation with a window decomposition of the exponent can be formalized by the following algorithm. Both directions of window decomposition are taken into account.
+Algorithm for exponentiation ae mod m with the representation of e in windows of (maximal) length l for odd 1-windows
+1. Decompose the exponent e into 0- and 1-windows (ωk−1 . . . ω0) of respective lengths lk−1, . . . , l0.
+2. Calculateandstorea3 modm,a5 modm,a7 modm,...,a2l−1 modm.
+3. Setp←aωk−1 modmandi←k−2.
+4. Setp←pli modm.
+5. Ifωi à=0,setp←paωi modm.
+6. Seti←i−1;ifi≥0,gotostep4.
+7. Outputp.
+Where All Roads Meet: Modular Exponentiation
+                     105
+Chapter 6
+If not all 1-windows are odd, then steps 3 through 6 are replaced by the following, and there is no step 7:
+  2lk−1 222 2
+3. Ifωk−1 =0,setp←p modm= ··· p ··· (lk−1 times)
+modm.Ifωk−1 à=0,factorωk−1 =2tuwithoddu;setp←au modm, andthenp←p2t modm.Ineachcaseseti←k−2.
+  2li 2222
+4. Ifωi =0,setp←p modm= ··· p ··· (li times)modm.
+Ifωi à= 0,factorωi = 2tuwithoddu;setp ← p2li−t modm,andthen p←pau modm;nowsetp←p2t modm.
+5 . Seti←i−1;ifi≥0,gotostep4 .
+6 . Outputp.
+6.4  Montgomery Reduction and Exponentiation
+Now we are going to abandon addition chains and turn our attention to another idea, one that is interesting above all from the algebraic point of view. It makes it possible to replace multiplications modulo an odd number n by multiplications modulo a power of 2, that is, 2k, which requires no explicit division and is therefore more efficient than a reduction modulo an arbitrary number n. This useful method for modular reduction was published in 1985 by P. Montgomery [Mont] and since then has found wide practical application. It is based on the following observation.
+Let n and r be relatively prime integers, and let r−1 be the multiplicative inverse of r modulo n; and likewise let n−1 be the multiplicative inverse of n modulo r; and furthermore, define n  := −n−1 mod r and m := tn  mod r. For integers t we then have
+t+mn ≡tr−1 modn. (6.8) r
+Note that on the left side of the congruence we have taken congruences modulo r and a division by r (note that t + mn ≡ 0 mod r, so the division has no remainder), but we have not taken congruences modulo n. By choosing r as a power of 2 in the form 2s we can reduce a number x modulo r simply by slicing off x at the sth bit (counting from the least-significant bit), and we can carry out the division of x by r by shifting x to the right by s bit positions. The left side of (6.8) thus requires significantly less computational expense than the right side, which is what gives the equation its charm. For the two required operations we can invoke the functions mod2_l() (cf. Section 4.3) and shift_l() (cf. Section 7.1).
+ 106
+This principle of carrying out reduction modulo n is called Montgomery reduction. Below, we shall institute Montgomery reduction for the express purpose of speeding up modular exponentiation significantly in comparison to our previous results. Since the procedure requires that n and r be relatively prime, we must take n to be odd. First we have to deal with a couple of considerations.
+We can clarify the correctness of the previous congruence with the help
+of some simple checking. Let us replace m on the left-hand side of (6.8) by
+the expression tn  mod r, which is (6.9), and further, replace tn  mod r by
+tn  − r  tn /r  ∈ Z to get (6.10), and then in (6.10) for n  the integer expression
+r r − 1 /n for a certain r  ∈ Z and obtain (6.11). After reduction modulo n we obtain the result (6.12):
+t+mn ≡ t+n tn  modr rr 
+t + ntn  tn  ≡ r −n r
+≡t+t rr −1 r
+(6.9) (6.10)
+(6.11) (6.12)
+(6.13)
+(6.14) (6.15)
+Where All Roads Meet: Modular Exponentiation
+     ≡ tr−1 mod n.
+To summarize equation (6.8) we record the following: Let n, t, r ∈ Z with
+gcd(n,r)=1,n  :=−n−1 modr.For
+f(t):=t+ tn  modr n
+we have
+f(t) ≡ t mod n, f(t) ≡ 0 mod r.
+We shall return to this result later.
+To apply Montgomery reduction we shift our calculations modulo n into a
+complete residue system (cf. Chapter 5)
+R := R(r, n) := {ir mod n | 0 ≤ i < n} withasuitabler := 2s > 0suchthat2s−1 ≤ n < 2s.Thenwedefinethe
+Montgomery product “×” of two numbers a and b in R: a×b := abr−1 mod n,
+with r−1 representing the multiplicative inverse of r modulo n. We have a×b ≡ (ir)(jr)r−1 ≡ (ij)r mod n ∈ R,
+and thus the result of applying × to members of R is again in R. The Montgomery product is formed by applying Montgomery reduction, where again n  := −n−1 mod r. From n  we derive the representation 1 = gcd(n, r) = r r − n n,
+107
+Chapter 6
+108
+which we calculate in anticipation of Section 10.2 with the help of the extended Euclidean algorithm. From this representation of 1 we immediately obtain
+and
+1 ≡ r r mod n 1 ≡ −n n mod r,
+so that r  = r−1 mod n is the multiplicative inverse of r modulo n, and
+n  = −n−1 mod r the negative of the inverse of n modulo r (we are anticipating somewhat; cf. Section 10.2). The calculation of the Montgomery product now takes place according to the following algorithm.
+Calculation of the Montgomery product a × b in R(r, n)
+1. Sett←ab.
+2. Setm←tn  modr.
+3. Setu←(t+mn)/r(thequotientisaninteger;seeabove).
+4. If u ≥ n, output u − n, and otherwise u. Based on the above selection of the parameter we have a, b < n as well as m, n < r and finally u < 2n; cf. (6.21).
+The Montgomery product requires three long-integer multiplications, one in step 1 and two for the reduction in steps 2 and 3. An example with small numbers will clarify the situation: Let a = 386, b = 257, and n = 533. Further, let r = 210. Thenn  =−n−1 modr=707,m=6,t+mn=102400,andu=100.
+A modular multiplication ab mod n with odd n can now be carried out by first transforming a  ← ar mod n and b  ← br mod n to R, there forming the Montgomery product p  ← a  × b  = a b r−1 mod n and then with
+p ← p  × 1 = p r−1 = ab mod n obtaining the desired result. However, we can spare ourselves the reverse transformation effected in the last step by setting p ← a  × b at once and thus avoid the transformation of b, so that in the end we have the following algorithm.
+Calculation of p = ab mod n (n odd) with the Montgomery product
+1. Determine r := 2s with 2s−1 ≤ n < 2s. Calculate 1 = r r − n n by means
+of the extended Euclidean algorithm.
+2. Seta  ←armodn.
+3. Setp←a  ×bandoutputp.
+Again we present an example with small numbers for clarification: Let a=123,b=456,n=789,r=210.Thenn  =−n−1 modr=963,a  =501, andp=a  ×b=69=abmodn.
+Since the precalculation of r  and n  in steps 1 and 2 is very time- consuming and Montgomery reduction in this version also has two long-number multiplications on its balance sheet, there is actually an increased computational expenditure compared with “normal” modular multiplication, so that the computation of individual products with Montgomery reduction is not worthwhile.
+However, in cases where many modular multiplications with a constant modulus are required, for which therefore the time-consuming precalculations occur only once, we may expect more favorable results. Particularly suited for the Montgomery product is modular exponentiation, for which we shall suitably modify the M-ary algorithm. To this end let once again e = (em−1em−2 . . . e0)B and n = (nl−1nl−2 . . . n0)B be the representations of the exponent e and
+the modulus n to the base B = 2k. The following algorithm calculates powers ae mod n in Zn with odd n using Montgomery multiplication. The squarings that occur in the exponentiation become Montgomery products a × a, in the computation of which we can use the advantages of squaring.
+Exponentiation modulo n (n odd) with the Montgomery product
+1. Set r ← Bl = 2kl. Calculate 1 = rr  − nn  with the Euclidean algorithm.
+2. Set a ← ar mod n. Calculate and store the powers a3, a5, . . . , a2k−1 using the Montgomery product × in R(r, n).
+3. Ifem−1 à=0,factorem−1 =2tuwithoddu.Setp←(au)2t. Ifem−1 =0,setp←rmodn.
+In each case set i ← m − 2.
+Where All Roads Meet: Modular Exponentiation
+       k222 4. Ifei = 0,setp ← p2 = ··· p2 ···
+(k-foldsquaringp2 = p×p).
+      2k−t u 2t Ifei à=0,factorei =2 uwithoddu.Setp← p ×a
+5. Ifi≥0,seti←i−1andgotostep4.
+6. OutputtheMontgomeryproductp×1.
+t
+.
+    Further possibilities for improving the algorithm lie less in the exponentiation algorithm than in the implementation of the Montgomery product itself, as demonstrated by S. R. Dussé and B. S. Kaliski in [DuKa]: In calculating the Montgomery product on page 108, in step 2 we can avoid the assignment
+m ← tn  mod r in the reduction modulo r. Furthermore, we can calculate with n 0 := n  mod B instead of with n  in executing the Montgomery reduction.
+109
+Chapter 6
+We can create a digit mi ← tin 0 modulo B, multiply it by n, scale by the factor Bi, and add to t. To calculate ab mod n with a,b < n the modulus n has the representation n = (nl−1nl−2 . . . n0)B as above, and we let r := Bl as well as rr  −nn  =1andn 0 :=n  modB.
+Calculation of the Montgomery product a × b à la Dussé and Kaliski 1. Sett←ab,n 0 ←n  modB,i←0.
+2. Set mi ← tin 0 mod B (mi is a one-digit integer).
+3. Sett←t+minBi.
+4. Seti←i+1;ifi≤l−1,gotostep2. 5. Sett←t/r.
+6. Ift≥n,outputt−nandotherwiset.
+Dussé and Kaliski state that the basis for their clever simplification is the method of Montgomery reduction to develop t as a multiple of r, but they offer no proof. Before we use this procedure we wish to make more precise why it suffices to calculate a × b. The following is based on a proof of Christoph Burnikel [Zieg]:
+In steps 2 and 3 the algorithm calculates a sequence t(i) of the recursion
+where
+by means (6.16)
+(6.17)
+i=0,...,l
+t =f Bi B, i=0,...,l−1, f(t)=t+ (tmodB) −n−1 modB modB n
+t(0) = ab,
+(i+1) t(i) i
+ is the already familiar function that is induced by the Montgomery equation (cf. (6.13), and there set r ← B in f (t)). The members of the sequence t(i) have the properties
+t(i) ≡ 0 mod Bi, t(i) ≡ ab mod n,
+(6.18) (6.19)
+(6.20)
+(6.21)
+t(l) −1 r ≡ abr
+t(l)
+r <2n.
+mod n,
+  110
+Properties (6.18) and (6.19) are derived inductively from (6.14), (6.15), (6.16), and (6.17); from (6.18) we obtain Bl | t(l) ⇔ r | t(l). From this and from
+t(l) ≡ ab mod n follows (6.20), and lastly we have (6.21) on account of l−1
+(l) (0)   i l t =t +n miB<2nB
+i=0
+(note here that t(0) = ab < n2 < nBl).
+The expenditure for the reduction is now determined essentially by
+multiplication of numbers of order of magnitude the size of the modulus. This variant of Montgomery multiplication can be elegantly implemented in code that forms the core of the multiplication routine mul_l() (cf. page 36).
+Where All Roads Meet: Modular Exponentiation
+   Function: Syntax:
+Input:
+Output:
+Montgomery product
+void mulmon_l (CLINT a_l, CLINT b_l, CLINT n_l,
+               USHORT nprime, USHORT logB_r,
+CLINT p_l);
+a_l, b_l (factors a and b)
+n_l (modulus n > a, b)
+nprime (n  mod B)
+logB_r (logarithm of r to base B = 216;
+it must hold that BlogB_r−1 ≤ n < BlogB_r)
+p_l (Montgomery product a × b = a · b · r−1 mod n)
+ void
+mulmon_l (CLINT a_l, CLINT b_l, CLINT n_l, USHORT nprime,
+          USHORT logB_r, CLINT p_l)
+{
+ CLINTD t_l;
+ clint *tptr_l, *nptr_l, *tiptr_l, *lasttnptr, *lastnptr;
+ ULONG carry;
+ USHORT mi;
+ int i;
+ mult (a_l, b_l, t_l);
+ lasttnptr = t_l + DIGITS_L (n_l);
+ lastnptr = MSDPTR_L (n_l);
+   The earlier use of mult() makes possible the multiplication of a_l and b_l without the possibility of overflow (see page 72); for the Montgomery squaring we simply insert sqr(). The result has sufficient space in t_l. Then t_l is given leading zeros to bring it to double the number of digits of n_l if t_l is smaller than this.
+ 111
+Chapter 6
+for (i = DIGITS_L (t_l) + 1; i <= (DIGITS_L (n_l) << 1); i++)
+ {
+t_l[i] = 0; }
+SETDIGITS_L (t_l, MAX (DIGITS_L (t_l), DIGITS_L (n_l) << 1));
+for (tptr_l = LSDPTR_L (t_l); tptr_l <= lasttnptr; tptr_l++)
+ {
+  carry = 0;
+  mi = (USHORT)((ULONG)nprime * (ULONG)*tptr_l);
+  for (nptr_l = LSDPTR_L (n_l), tiptr_l = tptr_l;
+    nptr_l <= lastnptr; nptr_l++, tiptr_l++)
+   {
+    *tiptr_l = (USHORT)(carry = (ULONG)mi * (ULONG)*nptr_l +
+      (ULONG)*tiptr_l + (ULONG)(USHORT)(carry >> BITPERDGT));
+   }
+  for ( ;
+    ((carry >> BITPERDGT) > 0) && tiptr_l <= MSDPTR_L (t_l);
+    tiptr_l++)
+   {
+    *tiptr_l = (USHORT)(carry = (ULONG)*tiptr_l +
+                         (ULONG)(USHORT)(carry >> BITPERDGT));
+}
+  if (((carry >> BITPERDGT) > 0))
+   {
+    *tiptr_l = (USHORT)(carry >> BITPERDGT);
+    INCDIGITS_L (t_l);
+   }
+}
+   Within the following double loop the partial products minBi with mi := tin 0 are calculated one after the other and added to t_l. Here again the code is essentially that of our multiplication function.
+    In the following inner loop a possible overflow is transported to the most- significant digit of t_l, and t_l contains an additional digit in case it is needed. This step is essential, since at the start of the main loop t_l was given a value and not initialized via multiplication by 0 as was the variable p_l.
+ 112
+Where All Roads Meet: Modular Exponentiation
+   Now follows division by Bl, and we shift t_l by logB_r digits to the right, or ig- nore the logB_r least-significant digits of t_l. Then if applicable the modulus n_l is subtracted from t_l before t_l is returned as result into p_l.
+  tptr_l = t_l + (logB_r);
+ SETDIGIT_L (tptr_l, DIGITS_L (t_l) - (logB_r));
+ if (GE_L (tptr_l, n_l))
+  {
+   sub_l (tptr_l, n_l, p_l);
+} else
+  {
+   cpy_l (p_l, tptr_l);
+} }
+The Montgomery squaring sqrmon_l() differs from this function only marginally: There is no parameter b_l in the function call, and instead of multiplication with mult(a_l, b_l, t_l) we employ the squaring function sqr(a_l, t_l), which likewise ignores a possible overflow. However, in modular squaring in the Montgomery method one must note that after the calculation of p  ← a  ×a  thereversetransformationp←p  ×1=p r−1 =a2 modnmust be calculated explicitly (cf. page 108).
+   Function: Syntax:
+Input:
+Output:
+Montgomery square
+void sqrmon_l (CLINT a_l, CLINT n_l, USHORT nprime, USHORT logB_r,CLINT p_l);
+a_l (factor a), n_l (modulus n > a) nprime (n  mod B)
+logB_r (logarithm of r to base B = 216); it must hold that BlogB_r−1 ≤ n < BlogB_r
+p_l (Montgomery square a2r−1 mod n)
+ In their article Dussé and Kaliski also present the following variant of the extended Euclidean algorithm, to be dealt with in detail in Section 10.2, for calculating n 0 = n  mod B, with which the expenditure for the precalculations can be reduced. The algorithm calculates −n−1 mod 2s for an s > 0 and for this requires long-number arithmetic.
+113
+Chapter 6
+Algorithm for calculating the inverse −n−1 mod 2s for s > 0, n odd 1. Setx←2,y←1,andi←2.
+2. Ifx<nymodx,sety←y+x.
+3. Setx←2xandi←i+1;ifi≤s,gotostep2.
+4. Outputx−y.
+With complete induction it can be shown that in step 2 of this algorithm yn≡1modxalwaysholds,andthusy≡n−1 modx.Afterxhastakenonthe value 2s in step 3, we obtain with 2s − y ≡ −n−1 mod 2s the desired result if we choose s such that 2s = B. The short function for this can be obtained under the name invmon_l() in the FLINT/C source. It takes only the modulus n as argument and outputs the value −n−1 mod B.
+These considerations are borne out in the creation of the functions mexp5m_l() and mexpkm_l(), for which we give here only the interface, together with a computational example.
+   Function: Syntax:
+Input:
+Output: Return:
+modular exponentiation with odd modulus
+(25-ary or 2k-ary method with Montgomery product)
+int mexp5m_l (CLINT bas_l, CLINT exp_l,
+               CLINT p_l, CLINT m_l);
+int mexpkm_l (CLINT bas_l, CLINT exp_l,
+               CLINT p_l, CLINT m_l);
+bas_l (base) exp_l (exponent) m_l (modulus)
+p_l (power residue)
+E_CLINT_OK if all is ok E_CLINT_DBZ if division by 0 E_CLINT_MAL if malloc() error E_CLINT_MOD if even modulus
+ 114
+These functions employ the routines invmon_l(), mulmon_l(), and sqrmon_l() to compute the Montgomery products. Their implementation is based on the functions mexp5_l() and mexpk_l() modified according to the exponentiation algorithm described above.
+We would like to reconstruct the processes of Montgomery exponentiation in mexpkm_l() with the same numerical example that we looked at for M-ary
+exponentiation (cf. page 100). In the following steps we shall calculate the power 1234667 mod 18577:
+1. Precomputations
+The exponent e = 667 is represented to the base 2k with k = 2 (cf. the algorithm for Montgomery exponentiation on page 114). The exponent e thereby has the representation
+e = (10 10 01 10 11)22 .
+The value r for Montgomery reduction is r = 216 = B = 65536.
+The value n 0 (cf. page 110) is now calculated as n 0 = 34703.
+The transformation of the base a into the residue system R(r, n) (cf. page 107) follows from
+a = ar mod n = 1234 · 65536 mod 18577 = 5743.
+The power a3 in R(r, n) has the value a3 = 9227. Because of the small
+exponent, further powers of a do not arise in the precomputation. 2. Exponentiationloop
+exponentdigitei =2tu   21 ·1
+21 ·1 16994 – 15740 11105
+20 ·1 3682 6646 8707 –
+21 ·1 14511 – 16923 1628
+20 ·3 11066 12834 1583 –
+Where All Roads Meet: Modular Exponentiation
+      p ← p2 p ← p22
+p ← p × au p ← p2
+–
+– 5743 9025
+            3. Result
+The value of the power p after normalization:
+p=p×1=pr−1 modn=1583r−1 modn=4445.
+Those interested in reconstructing the coding details of the functions mexp5m_l() and mexpkm_l() and the calculational steps of the example related to the function mexpkm_l() are referred to the FLINT/C source code.
+At the start of this chapter we developed the function wmexp_l(), which has the advantage for small bases that only multiplications p ← pa mod m of the type CLINT * USHORT mod CLINT occur. In order to profit from the Montgomery procedure in this function, too, we adjust the modular squaring to Montgomery squaring, as in mexpkm_l(), with the use of the fast inverse function invmon_l(), though we leave the multiplication unchanged. We can do this because with the calculational steps for Montgomery squaring and for conventional multiplication modulo n,
+  a2r−1 b≡ a2b r−1modn,
+115
+Chapter 6
+wedonotabandontheresiduesystemR(r,n) = {irmodn | 0 ≤ i < n} introduced above. This process yields us both the function wmexpm_l() and the dual function umexpm_l() for USHORT exponents, respectively for odd moduli, which in comparison to the two conventional functions wmexp_l() and umexp_l() again yields a significant speed advantage. For these functions, too, we present here only the interface and a numerical example. The reader is again referred to the FLINT/C source for details.
+   Function:
+Syntax:
+Input:
+Output: Return:
+modular exponentiation with Montgomery reduction for USHORT-base, respectively USHORT exponents
+and odd modulus
+int wmexpm_l (USHORT bas, CLINT e_l,
+               CLINT p_l, CLINT m_l);
+int umexpm_l (CLINT bas_l, USHORT e,
+               CLINT p_l, CLINT m_l);
+bas, bas_l (base) e, e_l (exponent) m_l (modulus)
+p_l (residue of base_l mod m_l, resp. bas_le mod m_l)
+E_CLINT_OK if all is ok E_CLINT_DBZ if division by 0 E_CLINT_MOD if even modulus
+ The function wmexpm_l() is tailor-made for our primality test in Section 10.5, where we shall profit from our present efforts. The function will be documented with the example used previously of the calculation of 1234667 mod 18577.
+1. Precalculations
+The binary representation of the exponent is e = (1010011011)2 .
+The value r for the Montgomery reduction is r = 216 = B = 65536. The value n 0 (cf. page 110) is calculated as above, yielding n 0 = 34703. The initial value of p is set as p ← pr mod 18577.
+2. Exponentiationloop
+Exponentbit 1010011011 p ← p × p in R(r, n) 9805 9025 16994 11105 3682 6646 14511 1628 11066 9350 p ← pa mod n 5743 – 15740 – – 8707 16923 – 1349 1583
+3. Result
+The value of the exponent p after normalization:
+p=p×1=pr−1 modn=1583r−1 modn=4445.
+             116
+A detailed analysis of the time behavior of Montgomery reduction with the various optimizations taken into account can be found in [Boss]. There we are promised a ten to twenty percent saving in time over modular exponentiation by using Montgomery multiplication. As can be seen in the overviews in Appendix D of typical calculation times for FLINT/C functions, our implementations bear out this claim fully. To be sure, we have the restriction that the exponentiation functions that use Montgomery reduction can be used only for odd moduli. Nonetheless, for many applications, for example for encryption and decryption, as well as for computing digital signatures according to the RSA procedure (see Chapter 17), the functions mexp5m_l() and mexpkm_l() are the functions of choice.
+Altogether, we have at our disposal a number of capable functions for modular exponentiation. To obtain an overview, in Table 6-5 we collect these functions together with their particular properties and domains of application.
+Table 6-5. Exponentiation functions in FLINT/C
+Function
+mexp5_l()
+mexpk_l()
+mexp5m_l()
+mexpkm_l()
+umexp_l()
+umexpm_l()
+wmexp_l()
+wmexpm_l()
+mexp2_l()
+Domain of Application
+General 25-ary exponentiation, without memory allocation, greater stack requirements.
+General 2k-ary exponentiation with optimal k for CLINT numbers, with memory allocation, lower stack requirements.
+25-ary Montgomery exponentiation for odd moduli, without memory allocation, greater stack requirements.
+2k-ary Montgomery exponentiation for odd moduli, with optimal k for CLINT numbers up to 4096 binary digits, with memory allocation, lower stack requirements.
+Mixed binary exponentiation of a CLINT base with USHORT exponent, lower stack requirements.
+Mixed binary exponentiation of a CLINT base with USHORT exponent and Montgomery reduction, thus only for odd moduli, lower stack requirements.
+Mixed binary exponentiation of a USHORT base with CLINT exponent,lower stack requirements.
+Mixed binary exponentiation with Montgomery squaring of a USHORT base with CLINT exponent, odd moduli, lower stack requirements.
+Mixed exponentiation with a power-of-2 exponent, lower stack requirements.
+Where All Roads Meet: Modular Exponentiation
+  117
+Chapter 6
+6.5  Cryptographic Application of Exponentiation
+We have worked hard in this chapter in our calculation of powers, and it is reasonable to ask at this point what modular exponentiation might have to offer to cryptographic applications. The first example to come to mind is, of course, the RSA procedure, which requires a modular exponentiation for encryption and decryption—assuming suitable keys. However, the author would like to ask his readers for a bit (or perhaps even a byte) of patience, since for the RSA procedure we still must collect a few more items, which we do in the next chapter. We shall return to this extensively in Chapter 17.
+For those incapable of waiting, we offer as examples of the application of exponentiation two important algorithms, namely, the procedure suggested in 1976 by Martin E. Hellman and Whitfield Diffie [Diff] for the exchange of cryptographic keys and the encryption procedure of Taher ElGamal as an extension of the Diffie–Hellman procedure.
+The Diffie–Hellman procedure represents a cryptographic breakthrough, namely, the first public key, or asymmetric, cryptosystem (see Chapter 17). Two years after its publication, Rivest, Shamir, and Adleman published the RSA procedure (see [Rive]). Variants of the Diffie–Hellman procedure are used today for key distribution in the Internet communications and security protocols IPSec, IPv6, and SSL, which were developed to provide security in the transfer of data packets in the IP protocol layer and the transfer of data at the application level, for example from the realms of electronic commerce. This principle of key distribution thus has a practical significance that would be difficult to overestimate.3
+With the aid of the Diffie–Hellman protocol two communicators, Ms. A and Mr. B, say, can negotiate in a simple way a secret key that then can be used for the encryption of communications between the two. After A and B have agreed on
+a large prime number p and a primitive root a modulo p (we shall return to this below), the Diffie–Hellman protocol runs as follows.
+Protocol for key exchange à la Diffie–Hellman
+1. AchoosesanarbitraryvaluexA ≤p−1andsendsyA :=axA modpasher public key to B.
+2. BchoosesanarbitraryvaluexB ≤p−1andsendsyB :=axB modpashis public key to A.
+3 IP Security (IPSec), developed by the Internet Engineering Task Force (IETF), is, as an extensive security protocol, a part of the future Internet protocol IPv6. It was created so that it could also be used in the framework of the then current Internet protocol (IPv4). Secure Socket Layer (SSL) is a security protocol developed by Netscape that lies above the TCP protocol, which offers end-to-end security for applications such as HTTP, FTP, and SMTP (for all of this see [Stal], Chapters 13 and 14).
+ 118
+3. A computes the secret key sA := yxA mod p. B
+4. B computes the secret key sB := yxB mod p. A
+Since
+sA ≡yxA ≡axBxA ≡yxB ≡sB modp, BA
+after step 4, A and B are dealing with a common key. The values p and a do not have to be kept secret, nor the values yA and yB exchanged in steps 1 and 2. The security of the procedure depends on the difficulty in calculating discrete logarithms in finite fields, and the difficulty of breaking the system is equivalent to that of calculating values xA or xB from values yA or yB in Zp.4 That the calculation of axy from ax and ay in a finite cyclic group (the Diffie–Hellman problem) is just as difficult as the calculation of discrete logarithms and thus equivalent to this problem is, in fact, conjectured but has not been proved.
+To ensure the security of the procedure under these conditions the modulus p must be chosen sufficiently large (at least 1024 bits, better 2048 or more; see Table 17-1), and one should ensure that p − 1 contains a large prime divisor close to (p − 1)/2 to exclude particular calculational procedures for discrete logarithms (a constructive procedure for such prime numbers will be presented in Chapter 17 in connection with the generation of strong primes, for example for the RSA procedure).
+The procedure has the advantage that secret keys can be generated as needed on an ad hoc basis, without the need for secret information to be held for a long time. Furthermore, for the procedure to be used there are no further infrastructure elements necessary for agreeing on the parameters a and b. Nonetheless, this protocol possesses some negative characteristics, the gravest of which is the lack of authentication proofs for the exchanged parameters yA and yB. This makes the procedure susceptible to man-in-the-middle attacks, whereby attacker X intercepts the messages of A and B with their public keys yA and yB and replaces them with falsified messages to A and B containing his own public key yX.
+Then A and B calculate “secret” keys s  := yxA mod p and s  := yxB mod p, AX BX
+while X on his or her part calculates s  from yxX ≡ axAxX ≡ axXxA ≡ yxA ≡ AAX
+s A mod p and s B analogously. The Diffie–Hellman protocol has now been executed not between A and B, but between X and A as well as between X and B. Now X is in a position to decode messages from A or B and to replace them by falsified messages to A or B. What is fatal is that from a cryptographic point of view the participants A and B are clueless as to what has happened.
+To compensate for these defects without giving up the advantages, several variants and extensions have been developed for use in the Internet. They all take into account the necessity that key information be exchanged in such a way that
+Where All Roads Meet: Modular Exponentiation
+ 4 For the problem of calculating discrete logarithms see [Schn], Section 11.6, as well as [Odly].
+119
+Chapter 6
+its authenticity can be verified. This can be achieved, for example, by the public keys being digitally signed by the participants and the associated certificate
+of a certification authority being sent with them (see in this regard page 400, Section 17.3), which is implemented, for example, in the SSL protocol. IPSec and IPv6 use a complexly constructed procedure with the name ISAKMP/Oakley,5 which overcomes all the drawbacks of the Diffie–Hellman protocol (for details see [Stal], pages 422–423).
+To determine a primitive root modulo p, that is, a value a whose powers
+ai mod p with i = 0,1,...,p − 2 constitute the entire set of elements of the
+multiplicative group Z×p = { 1, . . . , p − 1 } (see in this regard Section10.2), the
+following algorithm can be used (see [Knut], Section 3.2.1.2, Theorem C). It is
+assumed that the prime factorization p − 1 = Pe1 ···pek of the order of Z× is 1kp
+known.
+Finding a primitive root modulo p
+1. Choosearandomintegera∈[0,p−1]andseti←1.
+2. Compute t ← a(p−1)/pi mod p.
+3. Ift=1,gotostep1.Otherwise,seti←i+1.Ifi≤k,gotostep2.Ifi>k, output a and terminate the algorithm.
+The algorithm is implemented in the following function.
+   Function: Syntax:
+Input:
+Output: Return:
+ad hoc generation of a primitive root modulo p (2 < p prime) int primroot_l (CLINT a_l, unsigned noofprimes,
+               clint **primes_l);
+noofprimes (number of distinct prime factors in p − 1, the order of the group)
+primes_l (vector of pointers to CLINT objects, beginning with
+p − 1, then follow the prime divisors p1,...,pk of the
+grouporderp−1=pe1 ···pek,k=noofprimes) 1k
+a_l (primitive root modulo p_l)
+E_CLINT_OK if all is ok
+−1 if p − 1 odd and thus p is not prime
+  120
+5 ISAKMP: Internet Security Association and Key Management Protocol.
+int
+primroot_l (CLINT a_l, unsigned int noofprimes, clint *primes_l[])
+{
+ CLINT p_l, t_l, junk_l;
+ ULONG i;
+ if (ISODD_L (primes_l[0]))
+  {
+return -1; }
+ cpy_l (p_l, primes_l[0]);
+ inc_l (p_l);
+ SETONE_L (a_l);
+do {
+inc_l (a_l);
+Where All Roads Meet: Modular Exponentiation
+   primes_l[0] contains p − 1, from which we obtain the modulus in p_l.
+    As candidates a for the sought-after primitive root only natural numbers greater than or equal to 2 are tested. If a is a square, then a cannot be a primitive root modulo p, since then already a(p−1)/2 ≡ 1 mod p, and the order of a must be less than φ(p) = p − 1. In this case a_l is incremented. We test whether a_l is a square with the function issqr_l() (cf. Section 10.3).
+ if (issqr_l (a_l, t_l))
+ {
+  inc_l (a_l);
+ }
+i = 1;
+do {
+   div_l (primes_l[0], primes_l[i++], t_l, junk_l);
+   mexpkm_l (a_l, t_l, t_l, p_l);
+  }
+   The calculation of t ← a(p−1)/pi mod p takes place in two steps. All prime factors pi are tested in turn; we use Montgomery exponentiation. If a primitive root is found, it is output in a_l.
+ 121
+Chapter 6
+   while ((i <= noofprimes) && !EQONE_L (t_l));
+  }
+ while (EQONE_L (t_l));
+ return E_CLINT_OK;
+}
+As a second example for the application of exponentiation we consider the encryption procedure of ElGamal, which as an extension of the Diffie–Hellman procedure also provides security in the matter of the difficulty of computing discrete logarithms, since breaking the procedure is equivalent to solving the Diffie–Hellman problem (cf. page 119). Pretty good privacy (PGP), the workhorse known throughout the world for encrypting and signing e-mail and documents whose development goes back essentially to the work of Phil Zimmermann, uses the ElGamal procedure for key management (see [Stal], Section 12.1).
+A participant A selects a public and associated private key as follows. ElGamal key generation
+1. A chooses a large prime number p such that p − 1 has a large prime divisor close to (p − 1)/2 (cf. page 388) and a primitive root a of the multiplicative group Z×p as above (cf. page 120).
+2. Achoosesarandomnumberxwith1 ≤ x < p−1andcomputes b := ax mod p with the aid of Montgomery exponentiation.
+3. As public key A uses the triple  p, a, b A , and the associated secret key is  p, a, x A.
+Using the public key triple  p, a, b A a participant B can now encrypt a messageM ∈{1,...,p−1}andsendittoA.Theprocedureisasfollows.
+Protocol for encryption à la ElGamal
+1. Bchoosesarandomnumberywith1≤y<p−1.
+2. Bcalculatesα:=ay modpandβ:=Mby modp=M(ax)y modp. 3. B sends the cryptogram C := (α, β) to A.
+4. A computes from C the plain text using M = β/αx modulo p.
+Since
+β β (ax)y
+αx ≡ (ax)y ≡M(ax)y ≡M modp,
+the procedure works. The calculation of β/αx is carried out by means of a multiplication βαp−1−x modulo p.
+   122
+The size of p should be, depending on the application, 1024 bits or longer (see Table 17-1), and for the encryption of different messages M1 and M2 unequal random values y1 à= y2 should be chosen, since otherwise, from
+β1 M1by M1 =y=
+β2 M2b M2
+it would follow that knowledge of M1 was equivalent to knowledge of M2. In view of the practicability of the procedure one should note that the cryptogram C is twice the size of the plain text M , which means that this procedure has a higher transmission cost than others.
+The procedure of ElGamal in the form we have presented has an interesting weak point, which is that an attacker can obtain knowledge of the plain text with a small amount of information. We observe that the cyclic group Z×p contains the subgroup U := { ax | x even } of order (p − 1)/2 (cf. [Fisc], Chapter 1). If nowb = ax orα = ay liesinU,thenthisholds,ofcourse,foraxy.Ifthisisthe case and the encrypted text β is also in U, then M = βa−xy is in U as well. The same holds if axy and β are both not contained in U . In the other two cases, in which precisely one of axy and β does not lie in U, then M is also not in U. The following criteria provide information about this situation:
+1. axy ∈ U ⇔ (ax ∈ U or ay ∈ U). This, and whether also β ∈ U, is tested with
+2. Forallu∈Z×p ,u∈U ⇔u(p−1)/2 =1.
+One may ask how bad it might be if an attacker could gain such information about M. From the point of view of cryptography it is a situation difficult to accept, since the message space to be searched is reduced by half with little effort. Whether in practice this is acceptable certainly depends on the application. Surely, it is a valid reason to be generous in choosing the length of a key.
+Furthermore, one can take some action against the weakness of the procedure, without, one hopes, introducing new, unknown, weaknesses: The multiplication Mby mod p in step 2 of the algorithm can be replaced with an encryption operation V (H (axy ) , M ) using a suitable symmetric encryption procedure V (such as Triple-DES, IDEA, or Rijndael, which has become the new advanced encryption standard; cf. Chapter 11) and a hash function H (cf. page 398) that so condenses the value axy that it can be used as a key for V .
+So much for our examples of the application of modular exponentiation. In number theory, and therefore in cryptography as well, modular exponentiation is a standard operation, and we shall meet it repeatedly later on, in particular in Chapters 10 and 17. Furthermore, refer to the descriptions and numerous applications in [Schr] as well as in the encyclopedic works [Schn] and [MOV].
+Where All Roads Meet: Modular Exponentiation
+   123
+CHAPTER 7 Bitwise and
+    Logical Functions
+And sprinkled just a bit Over each banana split.
+—TomLehrer, “InMyHomeTown”
+“Contrariwise,” continued Tweedledee, “if it was so, it might be; and if it were so, it would be: but as it isn’t, it ain’t. That’s logic.”
+—LewisCarroll, ThroughtheLooking-Glass
+IN THIS CHAPTER WE SHALL present functions that carry out bitwise operations on CLINT objects, and we shall also introduce functions for determining the equality and size of CLINT objects, which we have already used quite a bit.
+Among the bitwise functions are to be found the shift operations, which shift a CLINT argument in its binary representation by individual bit positions, and certain other functions taking two CLINT arguments that enable the direct manipulation of the binary representation of CLINT objects. How such operations can be applied to arithmetic purposes is most clearly seen in the shift operations described below, but we have also seen, in Section 4.3, how the bitwise AND operation can be used in reduction modulo a power of two.
+7.1  Shift Operations
+Necessity devises all manner of shifts. —Rabelais
+The simplest way to multiply a number a with the representation a = (an−1an−2 ...a0)B to the base B by a power Be is to “shift a to the left by e digits.” This works with the binary representation exactly as it does in our familiar decimal system:
+aBe = (aˆn+e−1aˆn+e−2 . . . aˆeaˆe−1 . . . aˆ0)B ,
+125
+Chapter 7
+where
+aˆn+e−1 = an−1, aˆn+e−2 = an−2, . . . ,
+aˆe =a0, aˆe−1 =0, ..., aˆ0 =0.
+For B = 2 this corresponds to multiplication of a number in binary representation by 2e, while for B = 10 it corresponds to multiplication by a power of ten in the decimal system.
+In the analogous procedure for whole-number division by powers of B the digits of a number are “shifted to the right”:
+ a 
+Be = (aˆn−1 . . . aˆn−eaˆn−e−1aˆn−e−2 . . . aˆ0)B ,
+where
+aˆn−1 = ··· = aˆn−e = 0, aˆn−e−1 = an−1, aˆn−e−2 = an−2,...,aˆ0 = ae.
+For B = 2 this corresponds to integer division of a number in binary representation by 2e, and the analogous result holds for other bases.
+Since the digits of CLINT objects are represented in memory in binary form, CLINT objects can easily be multiplied by powers of two by shifting left, where the next digit to the right is shifted into each place where a digit has been shifted left, and the binary digits left over on the right are filled with zeros.
+In an analogous way CLINT objects can be divided by powers of two by shifting each binary digit to the right into the next lower-valued digit. Digits left free at the end are either filled with zeros or ignored as leading zeros, and at each stage in the process (shifting by one digit) the lowest-valued digit is lost.
+The advantage of this process is clear: Multiplication and division of a CLINT object a by a power of two 2e are simple, and they require at most e àlogB aà shift operations to shift each USHORT value by one binary digit. Multiplication and division of a by a power Be uses only àlogB aà operations for storing USHORT values.
+In the following we shall present three functions. The function shl_l() executes a rapid multiplication of a CLINT number by 2, while the function shr_l() divides a CLINT number by 2 and returns the integer quotient.
+Lastly, the function shift_l() multiplies or divides a CLINT type a by a power of two 2e. Which operation is executed is determined by the sign of the exponent e of the power of two that is passed as argument. If the exponent is positive, then the operation is multiplication, while if it negative, then division is carried out. If e has the representation e = Bk + l, l < B, then shift_l() carries out the multiplication or division in (l + 1) àlogB aà operations on USHORT values.
+All three functions operate modulo (Nmax + 1) on objects of CLINT type. They are implemented as accumulator functions, and thus they change their CLINT operands in that they overwrite the operand with the result of the operation. The functions test for overflow, respectively underflow. However, in shifting, underflow cannot really arise, since in those cases where more positions are to
+ 126
+be shifted than there are digits the result is simply zero, almost as it is in real life. The status value E_CLINT_UFL for underflow then merely indicates that there was less to shift than was required, or, in other words, that the power of two by which division was to be carried out was larger than the dividend, and so the quotient is zero. The three functions are implemented in the following manner.
+Bitwise and Logical Functions
+Function: Syntax: Input: Output: Return:
+shift left (multiplication by 2)
+int shl_l (CLINT a_l); a_l (multiplicand)
+a_l (product)
+E_CLINT_OK if all is ok E_CLINT_OFL if overflow
+int
+shl_l (CLINT a_l)
+{
+ clint *ap_l, *msdptra_l;
+ ULONG carry = 0L;
+ int error = E_CLINT_OK;
+ RMLDZRS_L (a_l);
+ if (ld_l (a_l) >= (USHORT)CLINTMAXBIT)
+  {
+   SETDIGITS_L (a_l, CLINTMAXDIGIT);
+   error = E_CLINT_OFL;
+  }

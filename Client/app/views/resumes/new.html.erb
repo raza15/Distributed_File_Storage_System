@@ -1,0 +1,27 @@
+<% if !@resume.errors.empty? %>
+   <div class = "alert alert-error">
+      
+      <ul>
+         <% @resume.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+         <% end %>
+      </ul>
+      
+   </div>
+<% end %>
+
+<div class = "well">
+
+   <%= form_for @resume, html: { multipart: true } do |f| %>
+      
+      <%= f.label :attachment %>
+      <%= f.file_field :attachment %>
+      <br>
+      <%= f.label :category %>
+      <%= f.select :cat, ['machine recommendation', 'arts', 'science', 'entertainment', 'politics']%>
+      <br><br>
+      <%= f.submit "Save", class: "btn btn-primary" %>
+   <% end %>
+   <br>
+   <p>Note: If the size of your file is less than 1000 bytes, it is stored on a single server. If it is greater, the file is stored on multiple servers.</p>
+</div>

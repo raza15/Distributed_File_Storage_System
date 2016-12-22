@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @facebook.email %>
+</p>
+
+<p>
+  <strong>Fbemail:</strong>
+  <%= @facebook.fbemail %>
+</p>
+
+<p>
+  <strong>Fbpass:</strong>
+  <%= @facebook.fbpass %>
+</p>
+
+<%= link_to 'Edit', edit_facebook_path(@facebook) %> |
+<%= link_to 'Back', facebooks_path %>

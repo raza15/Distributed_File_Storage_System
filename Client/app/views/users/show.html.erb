@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+
+<div id="outer">
+  <div class="inner"><%= button_to "Facebook",  face_book_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+  <div class="inner"><%= button_to "Twitter",  twitter_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+  <div class="inner"><%= button_to "Stack Overflow",  stack_overflow_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+  <div class="inner"><%= button_to "Gmail",  g_mail_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+  <div class="inner"><%= button_to "Git Hub",  github_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+  <div class="inner"><%= button_to "Linked In",  linkedin_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+  <div class="inner"><%= button_to "Google Plus+",  googleplus_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+  <div class="inner"><%= button_to "Bayes train",  bayes_train_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+</div>
+<br>
+<div id="outer">
+  <div class="inner"><%= button_to "Google",  google_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+  <div class="inner"><%= button_to "Yahoo",  yahoo_user_path(@user), method: :get, class: "btn btn-primary", style:"color:white"%></div>
+</div>
+<br>
+<% if !flash[:notice].blank? %>
+   <div class = "alert alert-info">
+      <%= flash[:notice] %>
+   </div>
+<% end %>
+<% if !flash[:notice1].blank? %>
+   <div class = "alert alert-success">
+      <%= flash[:notice1] %>
+   </div>
+<% end %>
+<% if !flash[:notice2].blank? %>
+   <div class = "alert alert-success">
+      <%= flash[:notice2] %>
+   </div>
+<% end %>
+<% if !flash[:notice3].blank? %>
+   <div class = "alert alert-success">
+      <%= flash[:notice3] %>
+   </div>
+<% end %>
+
+
+<% if(@user.id == current_user.id) %>
+
+<!-- 	<p>
+	  <strong>Email:</strong>
+	  <%= @user.email %>
+	</p>
+
+	<p>
+	  <strong>Password:</strong>
+	  <%= @user.password %>
+	</p> -->
+
+	
+<% elsif(current_user.id==nil) %>
+	<p>Dude. You're not logged in.</p>
+	<%= link_to 'Go to Login Page', login_path %>
+<%else%>
+	<p>Dude. This is not your profile.</p>
+	<%= link_to 'Go back to your Profile', user_path(current_user) %>	
+<%end%>
+
+
+<strong><h3>Your Files on Distributed Databases:</h3></strong>
+
+
+
+<table class = "table table-bordered table-striped">
+   <thead>.
+      <tr>
+         <th>Email</th>
+         <th>File Name</th>
+         <th>Category</th>
+      </tr>
+   </thead>
+   
+   <tbody>
+   	  <%@resumes = Resume.all%>
+      <% @resumes.each do |resume| %>
+         <%if (resume.email == User.find(current_user.id).email) %>
+            <% array_url=(resume.attachment_url).split("/") %>
+            <% len=array_url.length%>
+            <tr>
+               <td><%= resume.email %></td>
+               <td><%= array_url[len-1] %></td>
+               <td><%= Cat.find_by(email: resume.email, filename: array_url[len-1]).cat %></td>
+               <td><%= button_to "Download Using Semi-Join",  download_file_semi_join_original_resume_path(resume), method: :get, class: "btn btn-primary", style:"color:white"%></td>
+               <td><%= button_to "Download Using Bloom-Join",  download_file_bloom_join_resume_path(resume), method: :get, class: "btn btn-primary", style:"color:white"%></td>
+               <td><%= button_to "Parallel Semi-Join",  parallel_semi_join_resume_path(resume), method: :get, class: "btn btn-primary", style:"color:white"%></td>
+               <td><%= button_to "Parallel Bloom-Join",  parallel_bloom_join_resume_path(resume), method: :get, class: "btn btn-primary", style:"color:white"%></td>
+               <td><%= button_to "Delete",  resume, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{resume.email}?" %></td>
+            </tr>
+         <%end%>
+      <% end %>
+   </tbody>
+   
+</table>
+<%= link_to "Upload New File To Distributed Databases", new_resume_path, class: "btn btn-primary", style:"color:white" %>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

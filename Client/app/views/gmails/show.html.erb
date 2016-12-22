@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @gmail.email %>
+</p>
+
+<p>
+  <strong>Gmailemail:</strong>
+  <%= @gmail.gmailemail %>
+</p>
+
+<p>
+  <strong>Gmailpass:</strong>
+  <%= @gmail.gmailpass %>
+</p>
+
+<%= link_to 'Edit', edit_gmail_path(@gmail) %> |
+<%= link_to 'Back', gmails_path %>

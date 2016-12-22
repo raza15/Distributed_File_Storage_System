@@ -1,0 +1,11 @@
+<hr/>  
+<pre>
+<strong>YOUR LOG-IN INFO:</strong><br>
+<strong>        - IP Address            : <%=@client_ip%></strong><br>
+<strong>        - Full Address          : <%=@full_address%></strong><br>
+<strong>        - Latitude and Longitude: (<%=@geo_localization%>)</strong>
+</pre>
+<hr/>
+<%= image_tag "http://maps.googleapis.com/maps/api/staticmap?center=#{@latitude},#{@longitude}&markers=#{@latitude},#{@longitude}&zoom=10&size=1000x400&key=AIzaSyA4BHW3txEdqfxzdTlPwaHsYRSZbfeIcd8",
+              class: 'img-fluid img-rounded', alt: "#{@client_ip} on the map"%>
+

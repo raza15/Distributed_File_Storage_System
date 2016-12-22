@@ -1,0 +1,378 @@
+﻿ "The problem of nuclear weapon proliferation will not be solved until the
+ root cause is attacked. This is the belief that nuclear weapons are desirable
+ things to have, whether for use in fighting wars, in deterring and/or
+ intimidating adversaries, or only as symbols of technological power or
+ political equality with the mighty. Until all these motivations are shown to
+ be empty, and until nuclear weapons are outlawed by a world consensus that
+ they are too dangerous, politically and militarily counter-productive and
+ morally unacceptable, the threat of nuclear proliferation will remain."
+
+p.83, Uranium Enrichment & Nuclear Weapon Proliferation, SIPRI, A. Krass et al.
+
+IMPLOSION ASSEMBLY
+
+The idea here is to have a hollow shell of fissionable material, and compress
+it using carefully placed surrounding explosives. By pressuring the material 
+into a smaller volume, you increase the density. By doing so, you increase the
+probability of a neutron split over neutron loss. You need a precise spherical
+shock wave for compression.
+
+The collapsed core is then irradiated with external neutrons to start fission.
+The number of nuclei fissioning during later generations is proportional to
+how many nuclei you have fissioning initially. This depends on the initial
+neutron flux.
+
+Fusion Boosting
+
+At the centre of the core you can have solid Li6D. Some time before detonation
+you could also inject the core with T gas, from some exterior device. The idea
+is to achieve a fusion reaction in the central pit.
+
+During implosion, the core gains a high enough temperature and
+pressure for fusion reactions to occur. The synergy between fusion and fission
+reactions greatly improves chain reaction efficiency. Neutrons released from
+fusion have much higher energies than those released via fission processes.
+When these ultra fast neutrons hit U-235 nuclei, the splitting releases more
+neutrons than when U-235 are hit with fission neutrons. The chain reaction
+multiplies rapidly, leading to higher temperatures, and more fusion. The
+ultimate result is more U-235 splitting than you would have without the
+boost.
+
+The shell may be made of U-235 or Pu-239. The first Chinese test employed
+a U-235 shell.
+
+Another technique is to introduce a tamper of some sort, which is another shell
+surrounding the fissionable material. This shell is usually made of 
+Beryllium or U-238. It's purpose is to reflect escaping neutrons back into
+the reaction. This has the effect of reducing the amount of fissionable
+material needed for a reaction.
+
+The Fat Man bomb used a hollow core, but present day weapons might employ a
+solid (subcritical) core of fissile material. The density increase in a solid
+core reduces the amount of critical mass required for a chain reaction. This
+is because the reaction cross section is substantially increased.
+
+Core Levitation
+
+To increase the impact of the tamper on the fissionable shell, you can
+levitate the shell. You leave an air gap between the two materials. This
+has the effect of increasing momentum transfer, and hence facilitating
+implosion. According to Ted Taylor, in John McPhee's book (see Refs):
+
+"[Taylor] said there was something about the structure of implosion
+bombs that he had not gone into, and that he could not go into, which
+contributed greatly to their yield... 'All I can say is this: They
+had known all along that the way to get more energy into the middle was
+to hit the core harder. When you hammer a nail, what do you do? Do you
+put the hammer on the nail and push?'"
+
+
+============================================================================
+
+     [1]  Uranium Detonator
+          -----------------
+
+              Comprised of 2 parts.  Larger mass is spherical and concave.
+              Smaller mass is precisely the size and shape of the `missing'
+              section of the larger mass.  Upon detonation of conventional
+              explosive, the smaller mass is violently injected and welded
+              to the larger mass.  Supercritical mass is reached, chain
+              reaction follows in one millionth of a second.
+
+     [2]  Plutonium Detonator
+          -------------------
+
+              Comprised of 32 individual 45-degree pie-shaped sections of
+              Plutonium surrounding a Beryllium/Polonium mixture.  These 32
+              sections together form a sphere.  All of these sections must
+              have the precisely equal mass (and shape) of the others.  The
+              shape of the detonator resembles a soccerball.  Upon detonation
+              of conventional explosives, all 32 sections must merge with the
+              B/P mixture within 1 ten-millionths of a second.
+
+ ____________________________________________________________________________
+
+                                  - Diagram -
+                                 -------------
+ ____________________________________________________________________________
+                                       |
+            [Uranium Detonator]        |         [Plutonium Detonator]
+ ______________________________________|_____________________________________
+                _____                  |
+               |    :|                 |               . [2] .
+               |    :|                 |           . ~   \_/   ~ .
+               | [2]:|                 |        ..        .        ..
+               |    :|                 |      [2]|        .        |[2]
+               |   .:|                 |     . ~~~ .      .      . ~~~ .
+               `...::'                 |    .        .    .    .        .
+               _ ~~~ _                 |   .           .  ~  .           .
+            . `|     |':..             | [2]\.  .  .  .  [1]  .  .  .  ./[2]
+         .     |     | `:::.           |   ./          . ~~~ .          \.
+               |     |   `:::          |   .         .    :    .         .
+       .       |     |    ::::         |    .      .      .      .      .
+               | [1] |    ::|::        |     . ___        .        ___ .
+      .        `.   .'   ,::||:        |      [2]|        .        |[2]
+                 ~~~     ::|||:        |        .'        _        `.
+       ..        [2]   .::|||:'        |           .     / \     .
+        ::...       ..::||||:'         |              ~ -[2]- ~
+         :::::::::::::||||::'          |
+          ``::::||||||||:''            |
+              ``:::::''                |
+                                       |
+                                       |
+                                       |
+                                       |
+       [1] = Collision Point           |      [1] = Collision Point
+       [2] - Uranium Section(s)        |      [2] = Plutonium Section(s)
+                                       |
+                                       |
+ ______________________________________|_____________________________________
+============================================================================
+
+
+                        - Diagram for Plutonium Bomb -
+                       --------------------------------
+                       [Gravity Bomb - Implosion Model]
+                       --------------------------------
+                        -> Cutaway Sections Visible <-
+
+
+
+============================================================================
+
+
+
+                                      /\
+                                     /  \ <---------------------------[1]
+                                    /    \
+                  _________________/______\_________________
+                 | :      ||:      ~      ~               : |
+     [2]-------> | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :      ||:                             : |
+                 | :______||:_____________________________: |
+                 |/_______||/______________________________\|
+                  \       ~\       | :          |:|         /
+                   \       |\      | :          |:|        /
+                    \      | \     | :__________|:|       /
+                     \     |:_\    | :__________\:|      /
+                      \    |___\   |______________|     /
+                       \  |     \ |~               \   /
+                        \|_______\|_________________\_/
+                        |_____________________________|
+                        /                             \
+                       /                               \
+                      /                                 \
+                     /          _______________          \
+                    /       ___/               \___       \
+                   /____ __/                       \__ ____\
+     [3]_______________________________               \ ___|
+                   / __/               \               \__ \
+                  / /                  \/                 \ \
+                 / /              ___________              \ \
+                / /            __/___________\__            \ \
+              ./ /__  ___     /=================\     ___  __\ \.
+     [4]-------> ___||___|====|[[[[[|||||||]]]]]|====|___||___ <------[4]
+            /  /              |=o=o=o=o=o=o=o=o=| <-------------------[5]
+           .' /                \_______ _______/                \ `.
+           :  |___                    |*|                    ___|  :
+          .'  |   \_________________  |*|  _________________/   |  `.
+          :   |   ___________   ___ \ |*| / ___   ___________   |   :
+          :   |__/           \ /   \_\\*//_/   \ /           \__|   :
+          :   |______________:|:____:: **::****:|:********\ <---------[6]
+         .'  /:|||||||||||||'`|;..:::::::::::..;|'`|||||||*|||||:\  `.
+     [7]----------> ||||||' .:::;~|~~~___~~~|~;:::. `|||||*|| <-------[7]
+         :   |:|||||||||' .::'\ ..:::::::::::.. /`::. `|||*|||||:|   :
+         :   |:|||||||' .::' .:::''~~     ~~``:::. `::. `|\***\|:|   :
+         :   |:|||||' .::\ .::''\ |   [9]   | /``::: /::. `|||*|:|   :
+     [8]------------>::' .::'    \|_________|/    `::: `::. `|* <-----[6]
+         `.  \:||' .::' ::'\ [9] .     .     . [9] /::: `::.  *|:/  .'
+          :   \:' :::'.::'  \  .               .  /  `::.`::: *:/   :
+          :    | .::'.::'____\    [10] . [10]    /____`::.`::.*|    :
+          :    | :::~:::     |       . . .       |     :::~:::*|    :
+          :    | ::: ::  [9] | .   . ..:.. .   . | [9]  :: :::*|    :
+          :    \ ::: ::      |       . :\_____________________________[11]
+          `.    \`:: ::: ____|     .   .   .     |____ ::: ::'/    .'
+           :     \:;~`::.    / .  [10]   [10]  . \    .::'~::/     :
+           `.     \:. `::.  /    .     .     .    \  .::' .:/     .'
+            :      \:. `:::/ [9]   _________   [9] \:::' .:/      :
+            `.      \::. `:::.   /|         |\   .:::' .::/      .'
+             :       ~~\:/ `:::./ |   [9]   | \.:::' \:/~~       :
+             `:=========\::. `::::...     ...::::' .::/=========:'
+              `:         ~\::./ ```:::::::::''' \.::/~         :'
+               `.          ~~~~~~\|   ~~~   |/~~~~~~          .'
+                `.                \:::...:::/                .'
+                 `.                ~~~~~~~~~                .'
+                  `.                                       .'
+                   `:.                                   .:'
+                    `::.                               .::'
+                      `::..                         ..::'
+                        `:::..                   ..:::'
+                          `::::::...        ..::::::'
+    [12]------------------> `:____:::::::::::____:' <-----------------[12]
+                              ```::::_____::::'''
+                                     ~~~~~
+
+
+
+
+
+
+============================================================================
+
+
+                              - Diagram Outline -
+                             ---------------------
+
+                        [1] - Tail Cone
+                        [2] - Stabilizing Tail Fins
+                        [3] - Air Pressure Detonator
+                        [4] - Air Inlet Tube(s)
+                        [5] - Altimeter/Pressure Sensors
+                        [6] - Electronic Conduits & Fusing Circuits
+                        [7] - Lead Shield Container
+                        [8] - Neutron Deflector (U-238)
+                        [9] - Conventional Explosive Charge(s)
+                       [10] - Plutonium (Pu-239)
+                       [11] - Receptacle for Beryllium/Polonium mixture
+                              to facilitate atomic detonation reaction.
+                       [12] - Fuses (inserted to arm bomb)
+
+
+
+
+============================================================================
+
+1994
+                      A SIMPLIFIED HALF-BOARD GAME
+                       USING A CHINESE CHESS SET
+                           BY ROLEIGH MARTIN
+                             CIS 71510,1042
+                           5511 Malibu Drive
+                             Edina MN 55436
+                                1-18-94
+        
+        I received an interesting Compuserve (CIS) email from a
+        downloader of an earlier upload of CCHESS.ZIP from Dave
+        Franz (CIS ID 71172,2115).  I am reproducing relevant
+        parts from his email.  It shows how to play another
+        game with Chinese Chess that might be easier to teach
+        newcomers.  I've known Chinese mothers and young kids
+        to play this game quite enjoyably.  According to Dave
+        Franz, a lot of Chinese men play this game too.  I
+        haven't played it myself though.  It is reproduced here
+        to achieve written (in English) posterity.
+        
+        
+        To: Roleigh H. Martin > [71510,1042]
+        #: 67 S0/CompuServe Mail  [MAIL]
+            05-Jan-94 09:52 CST
+        Sb: XiangXi half-board chess
+        Fm: Dave Franz [71172,2115]
+        
+        
+        I was wondering if you knew of the half-board version
+        of this game.  I learned it in Taiwan from Taxi
+        drivers.  (It is played on half the board, with all the
+        pieces turned down, in the center of the squares.  A
+        move consists of flipping a piece over or moving a
+        piece... well hopefully you know all of this.)
+        
+
+                                 * * *
+        
+
+        To: Roleigh Martin > [71510,1042]
+        #: 68 S0/CompuServe Mail  [MAIL]
+            06-Jan-94 15:38 CST
+        Sb: XiangXi half-board chess
+        Fm: Dave Franz [71172,2115]
+        
+        First to answer your questions, I downloaded your
+        upload from IBMNEW forum.  I was taught how to play the
+        full board version once, but that was long ago, and I
+        never practiced enough to retain the knowledge.  I
+        haven't played the half board game in two years now, so
+        I'm also getting rusty at that.  In this game, there
+        are two players, and the game is very fast and
+        exciting.  Kind of a mix-up of Checkers, Chess, Stratego
+        and Poker.
+        
+        
+                                PRE-GAME
+        
+        All pieces are turned upside down, mixed up, and placed
+        in the center of the squares of a half board (on a 4x8
+        grid).
+        
+        
+                                STARTING
+        
+        CAI CHUAN (paper-rock-scissors) determines who will
+        turn over the first piece to see who makes the first
+        move (turns the first piece.)  The color of the first
+        piece is played by the turner of that piece.
+        
+        
+                                  PLAY
+        
+        A move is either (1) turning over a piece, (2) moving a
+        piece one square horizontally or vertically (not
+        diagonally) to another blank square, or (3) capturing
+        another piece.  Obviously, at first, most of the moves
+        are turning over pieces.  The object of the game is to
+        eliminate all the tiles of the other player.
+        
+        
+                           HIERARCHY OF PIECES
+        
+        The general can take a knight, can take a elephant, can
+        take a chariot, can take a horse can take a pawn.
+        Pawns can take a general, but generals can't take
+        pawns.  Any piece just mentioned can capture its own
+        kind or below (except general to pawn).  Cannons can
+        take anything, but only by jumping over another piece,
+        regardless of how far away the piece is, so long as
+        there is only one piece.  (The piece captured is the
+        one it lands on, not the one it jumps.)  When not
+        capturing, cannons can move to adjacent free squares
+        just like any other piece.  Further, cannons can be
+        taken by anything but a pawn.  Capturing takes place
+        for any other piece by moving to an adjacent square.
+        
+        
+                                COMMENTS
+        
+        Stalemates are possible.  The end of the game can get
+        very strategy oriented.
+        
+        Games are not based entirely on strategy, sometimes a
+        game can be won by the luck of the draw (the luck of
+        the turn).
+        
+        Cannons tend to be the most interesting pieces in the
+        game.
+        
+        The rules I just laid out are subject to wide
+        variations.  Some of my favorite:  Cannons can jump
+        consecutively, taking many pieces in one move.  Various
+        pieces can move on the diagonal.  Horses can only move
+        two up one over (like in regular chess).  Various
+        pieces can move on the diagonal (or can move only on
+        the diagonal).  Turn all pieces up at start.  etc. etc.
+        etc.  Half-board Xiang Xi works like poker, when the
+        dealer calls the game (ie, 7stud, draw, etc.).
+        
+        Well I hope this gives you a better idea of the game.
+        I just wrote this on the fly, so it may not be a very
+        good description.
+        
+

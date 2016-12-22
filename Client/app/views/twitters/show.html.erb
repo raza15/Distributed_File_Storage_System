@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @twitter.email %>
+</p>
+
+<p>
+  <strong>Twitteremail:</strong>
+  <%= @twitter.twitteremail %>
+</p>
+
+<p>
+  <strong>Twitterpass:</strong>
+  <%= @twitter.twitterpass %>
+</p>
+
+<%= link_to 'Edit', edit_twitter_path(@twitter) %> |
+<%= link_to 'Back', twitters_path %>

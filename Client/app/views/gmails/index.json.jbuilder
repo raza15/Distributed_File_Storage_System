@@ -1,0 +1,1 @@
+json.array! @gmails, partial: 'gmails/gmail', as: :gmail
