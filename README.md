@@ -16,4 +16,4 @@ Edit the file “server_adds.txt” in Client folder. 1st line in the file shoul
 
 
 # Project Report 
-![alt tag](Untitled.png)
+![alt tag](images/distributed_cloud_storage_report-1.jpg)
