@@ -1,4 +1,4 @@
-# Distributed Cloud Storage AND Document Classifier AND All your social networks under 1 roof
+# "Distributed Cloud Storage" AND "Document Classifier" AND "Social Network Manager"
 
 Run the Project by going into project directory:
 
